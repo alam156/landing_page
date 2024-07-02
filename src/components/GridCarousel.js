@@ -11,22 +11,22 @@ const GridCarousel = () => {
     return (
         <Carousel cols={3} rows={1} gap={5} loop>
             <Carousel.Item>
-                <img width="70%" src={image1} />
+                <img width="70%" src={image1}  alt="image1"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img width="70%" src={image2} />
+                <img width="70%" src={image2} alt="image2"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img width="70%" src={image3} />
+                <img width="70%" src={image3} alt="image3"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img width="70%" src={image4} />
+                <img width="70%" src={image4} alt="image4"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img width="70%" src={image5} />
+                <img width="70%" src={image5} alt="image5"/>
             </Carousel.Item>
             <Carousel.Item>
-                <img width="70%" src={image6} />
+                <img width="70%" src={image6} alt="image6"/>
             </Carousel.Item>
             {/* ... */}
         </Carousel>

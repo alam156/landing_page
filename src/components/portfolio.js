@@ -26,7 +26,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const Portfolio = () => {
     const [landingPageData, setLandingPageData] = useState({});
-    const plans = [
+    /*const plans = [
         {
             price: 'Free',
             title: 'Class 0',
@@ -68,7 +68,7 @@ const Portfolio = () => {
                 'SSL CLIENT AUTHENTICATION'
             ],
         }
-    ];
+    ];*/
     useEffect(() => {
         setLandingPageData(JsonData);
     }, []);
