@@ -4,11 +4,6 @@ import './App.css';
 import Portfolio from "./components/portfolio";
 
 const App = () => {
-    /*return (
-        <div>
-            <Portfolio />
-        </div>
-    );*/
   return (
       <Router>
           <Routes>
