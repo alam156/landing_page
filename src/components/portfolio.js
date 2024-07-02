@@ -8,7 +8,7 @@ import SmoothScroll from "smooth-scroll";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/style.css'
 //import BlackFooter from "BlackFooter";
-import Footer from "./Footer";
+//import Footer from "./Footer";
 import NavBar from "./Navbar";
 //import AccordionFAQ from "../AccordionFAQ";
 import SigningSteps from "./SigningSteps";

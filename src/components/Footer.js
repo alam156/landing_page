@@ -9,7 +9,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col md={4}>
-                        <img src={logoImage} class="img-fluid" alt="Responsive image" />
+                        {/*<img src={logoImage} class="img-fluid" alt="Responsive image" />*/}
                     </Col>
                     <Col md={4}>
                         <h5>Quick Links</h5>
