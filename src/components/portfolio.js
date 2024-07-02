@@ -14,7 +14,7 @@ import NavBar from "./Navbar";
 import SigningSteps from "./SigningSteps";
 import CarLogos from "./CarLogos";
 import FeaturesJumbotron from "./FeaturesJumbotron";
-import GridItems from "./GridItems";
+//import GridItems from "./GridItems";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
@@ -82,9 +82,9 @@ const Portfolio = () => {
             <div className="container grid-container">
                 <h2 className="mt-4 mb-4">Why Customer choose us?</h2>
             </div>
-            <div className='row mb-5'>
+            {/*<div className='row mb-5'>
                 <GridItems />
-            </div>
+            </div>*/}
             {/*<Features data={landingPageData['Features']} />*/}
             <About data={landingPageData['About']} />
             <Services data={landingPageData['Services']} />
