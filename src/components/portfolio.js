@@ -154,7 +154,7 @@ const Portfolio = () => {
             </div>
             <CarLogos />
             {/*<BlackFooter/>*/}
-            <Footer/>
+            {/*<Footer/>*/}
             {/*<Team data={landingPageData['Team']} />*/}
             {/*<Contact data={landingPageData['Contact']} />*/}
         </div>
