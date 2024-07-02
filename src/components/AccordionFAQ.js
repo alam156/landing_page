@@ -1,9 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faComputer} from "@fortawesome/free-solid-svg-icons";
-import React, {useEffect, useState} from "react";
-import JsonData from "../jsons/data.json";
-import Navbar from "./Navbar";
+import React from "react";
 
 const AccordionFAQ = (props) => {
     return (

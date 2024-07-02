@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { faCog, faCloud, faMobileAlt, faCoffee, faHatCowboy, faCloudMoonRain, faSearch, faCookie, faUmbrellaBeach, faCannabis, faCrown, faCubes, faCamera, faUserClock, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import { faCannabis, faCrown, faCubes, faCamera, faUserClock, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const Services = (props) => {
