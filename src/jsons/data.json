@@ -1,0 +1,266 @@
+{
+  "Header": {
+    "title": "Quicksign Landing Page",
+    "paragraph": "Quicksign streamlines document signing processes with its secure, user-friendly, and efficient remote digital signing platform."
+  },
+  "About": {
+    "paragraph": "why you should use remote digital signature?",
+    "Why": [
+      "Optimum price",
+      "android app for registration",
+      "Secure signing",
+      "Remote private key handle",
+      "Simple"
+    ],
+    "Why2": [
+      "No Crypto Token needed",
+      "100 % Authenticity",
+      "Robust UI",
+      "Easy to use"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "Services": [
+    {
+      "icon": "icon1",
+      "name": "Registration through e-KYC",
+      "text": "We need to register through e-KYC app through face recognition."
+    },
+    {
+      "icon": "icon2",
+      "name": "Access Through Web Application",
+      "text": "We need to access to web application to sign a document."
+    },
+    {
+      "icon": "icon3",
+      "name": "Upload Document and Sign",
+      "text": "We need to upload the document to sign in web application."
+    },
+    {
+      "icon": "icon4",
+      "name": "Select the PlaceHolder",
+      "text": "We need to select the place holder where to sign."
+    },
+    {
+      "icon": "icon5",
+      "name": "Select Approval Hierarchy",
+      "text": "Select Approval Hierarchy of members who needs to sign."
+    },
+    {
+      "icon": "icon6",
+      "name": "Ensuring 2 factor authentication and sign",
+      "text": "We need to ensure 2 factor authentication and sign accordingly."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Very good signing system i have ever used.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Super user friendly.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Very economical pricing policy.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Good System.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Secured and reliable system.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Excellent, Swift, Secured system. One polite recommendation to make faster.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Secure Authentication",
+      "text": "Digital signatures use strong encryption techniques to verify the identity of signatories and ensure that only authorized users can sign documents."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Audit Trails",
+      "text": "Each document signed digitally includes a comprehensive audit trail that records who signed the document, when they signed it, and the IP address from which it was signed, helping maintain compliance and traceability."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Time Stamping",
+      "text": "Digital signatures often incorporate time stamps that provide a verifiable date and time at which the signature was applied, ensuring the integrity and temporal validity of the document."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Non-repudiation",
+      "text": "Due to the unique identification features and encryption associated with digital signatures, signees cannot deny their association with a signed document, providing strong legal enforceability."
+    }
+  ],
+  "Faq": [
+      {
+        "question": "What is an e-signature?",
+        "answer": "An e-signature is an electronic signature that is used to sign documents digitally. It provides a convenient and secure way to sign documents without the need for physical signatures."
+      },
+      {
+        "question": "Are e-signatures legally binding?",
+        "answer": "Yes, e-signatures are legally binding in many countries and industries. They are recognized as a valid form of signature under various laws and regulations."
+      },
+      {
+        "question": "How do e-signatures improve workflows?",
+        "answer": "E-signatures can help businesses streamline their workflows by reducing the time and effort required to sign documents. They also provide a faster and more efficient signing process, which can improve customer satisfaction."
+      },
+      {
+        "question": "What security features do e-signatures offer?",
+        "answer": "E-signature solutions often include features such as audit trails, authentication, and encryption to ensure the integrity and security of signed documents. These features help prevent fraud and unauthorized access."
+      },
+      {
+        "question": "What are the environmental benefits of e-signatures?",
+        "answer": "E-signatures offer environmental benefits by reducing paper waste and contributing to sustainability efforts. They also help reduce carbon emissions associated with printing, mailing, and storing physical documents."
+      },
+      {
+        "question": "What is an e-signature?",
+        "answer": "An e-signature is an electronic signature that is used to sign documents digitally. It provides a convenient and secure way to sign documents without the need for physical signatures."
+      },
+      {
+        "question": "Are e-signatures legally binding?",
+        "answer": "Yes, e-signatures are legally binding in many countries and industries. They are recognized as a valid form of signature under various laws and regulations."
+      },
+      {
+        "question": "How do e-signatures improve workflows?",
+        "answer": "E-signatures can help businesses streamline their workflows by reducing the time and effort required to sign documents. They also provide a faster and more efficient signing process, which can improve customer satisfaction."
+      },
+      {
+        "question": "What security features do e-signatures offer?",
+        "answer": "E-signature solutions often include features such as audit trails, authentication, and encryption to ensure the integrity and security of signed documents. These features help prevent fraud and unauthorized access."
+      },
+      {
+        "question": "What are the environmental benefits of e-signatures?",
+        "answer": "E-signatures offer environmental benefits by reducing paper waste and contributing to sustainability efforts. They also help reduce carbon emissions associated with printing, mailing, and storing physical documents."
+      }
+  ]
+}
