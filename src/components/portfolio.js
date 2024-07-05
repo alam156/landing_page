@@ -86,8 +86,13 @@ const Portfolio = () => {
                 <GridItems />
             </div>*/}
             {/*<Features data={landingPageData['Features']} />*/}
-            <About data={landingPageData['About']} />
-            <Services data={landingPageData['Services']} />
+            <div>
+                <About data={landingPageData['About']} />
+            </div>
+            <div>
+                <Services data={landingPageData['Services']} />
+            </div>
+
             {/*<Gallery data={landingPageData['Gallery']} />*/}
 
             <div>
@@ -141,8 +146,12 @@ const Portfolio = () => {
                     <Pricing></Pricing>
                 </div>
             </div>
-            <Testimonials data={landingPageData['Testimonials']} />
-            <AccordionFAQ data={landingPageData['Faq']}/>
+            <div>
+                <Testimonials data={landingPageData['Testimonials']} />
+            </div>
+            <div>
+                <AccordionFAQ data={landingPageData['Faq']}/>
+            </div>
             <div>
                 <div className="section-title text-center">
                     <h2>Our Sponsors</h2>
@@ -152,7 +161,9 @@ const Portfolio = () => {
             <div className="section-title text-center">
                 <h2>Our Brands</h2>
             </div>
-            <CarLogos />
+            <div>
+                <CarLogos />
+            </div>
             {/*<BlackFooter/>*/}
             {/*<Footer/>*/}
             {/*<Team data={landingPageData['Team']} />*/}
