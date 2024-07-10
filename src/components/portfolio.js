@@ -18,6 +18,7 @@ import FeaturesJumbotron from "./FeaturesJumbotron";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
+import {Spinner} from "react-bootstrap";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -83,8 +84,8 @@ const Portfolio = () => {
                 <h2 className="mt-4 mb-4">Why Customer choose us?</h2>
             </div>
             {/*<div className='row mb-5'>
-                <GridItems />
-            </div>*/}
+                    <GridItems />
+                </div>*/}
             {/*<Features data={landingPageData['Features']} />*/}
             <div>
                 <About data={landingPageData['About']} />
@@ -137,12 +138,12 @@ const Portfolio = () => {
                 </div>
                 <div className="container mt-5">
                     {/*<Row>
-                        {plans.map((plan, index) => (
-                            <Col sm="3" key={index}>
-                                <PricingCard {...plan} />
-                            </Col>
-                        ))}
-                    </Row>*/}
+                            {plans.map((plan, index) => (
+                                <Col sm="3" key={index}>
+                                    <PricingCard {...plan} />
+                                </Col>
+                            ))}
+                        </Row>*/}
                     <Pricing></Pricing>
                 </div>
             </div>
