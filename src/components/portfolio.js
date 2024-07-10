@@ -18,7 +18,6 @@ import FeaturesJumbotron from "./FeaturesJumbotron";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
-import {Spinner} from "react-bootstrap";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
