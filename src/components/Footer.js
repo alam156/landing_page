@@ -11,21 +11,21 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col md={4}>
-                        <img src={logoImage} class="img-fluid" alt="Responsive image" />
+                        <img src={logoImage} alt="Res"/>
                     </Col>
                     <Col md={4}>
                         <h5>Quick Links</h5>
                         <ul className="list">
-                            <li className="list-item"><a href="#">Terms of Service</a></li>
-                            <li className="list-item"><a href="#">Privacy Policy</a></li>
+                            <li className="list-item"><a href="https://bcc.gov.bd/">Terms of Service</a></li>
+                            <li className="list-item"><a href="https://bcc.gov.bd/">Privacy Policy</a></li>
                         </ul>
                     </Col>
                     <Col md={4}>
                         <h5>Follow Us</h5>
                         <ul className="list-inline">
-                            <li className="list-inline-item"><a href="#"><FaFacebook /></a></li>
-                            <li className="list-inline-item"><a href="#"><FaYoutube /></a></li>
-                            <li className="list-inline-item"><a href="#"><FaInstagram /></a></li>
+                            <li className="list-inline-item"><a href="https://bcc.gov.bd/"><FaFacebook /></a></li>
+                            <li className="list-inline-item"><a href="https://bcc.gov.bd/"><FaYoutube /></a></li>
+                            <li className="list-inline-item"><a href="https://bcc.gov.bd/"><FaInstagram /></a></li>
                         </ul>
                     </Col>
                 </Row>

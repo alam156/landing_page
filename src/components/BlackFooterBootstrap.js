@@ -10,41 +10,41 @@ const BlackFooterBootstrap = () => {
                     <div className="col-md-2">
                         <h5>Column 1</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white">Link 1</a></li>
-                            <li><a href="#" className="text-white">Link 2</a></li>
-                            <li><a href="#" className="text-white">Link 3</a></li>
-                            <li><a href="#" className="text-white">Link 4</a></li>
-                            <li><a href="#" className="text-white">Link 5</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 1</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 2</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 3</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 4</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 5</a></li>
                         </ul>
                     </div>
                     <div className="col-md-2">
                         <h5>Column 2</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white">Link 1</a></li>
-                            <li><a href="#" className="text-white">Link 2</a></li>
-                            <li><a href="#" className="text-white">Link 3</a></li>
-                            <li><a href="#" className="text-white">Link 4</a></li>
-                            <li><a href="#" className="text-white">Link 5</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 1</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 2</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 3</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 4</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 5</a></li>
                         </ul>
                     </div>
                     <div className="col-md-2">
                         <h5>Column 3</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white">Link 1</a></li>
-                            <li><a href="#" className="text-white">Link 2</a></li>
-                            <li><a href="#" className="text-white">Link 3</a></li>
-                            <li><a href="#" className="text-white">Link 4</a></li>
-                            <li><a href="#" className="text-white">Link 5</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 1</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 2</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 3</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 4</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 5</a></li>
                         </ul>
                     </div>
                     <div className="col-md-2">
                         <h5>Column 4</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white">Link 1</a></li>
-                            <li><a href="#" className="text-white">Link 2</a></li>
-                            <li><a href="#" className="text-white">Link 3</a></li>
-                            <li><a href="#" className="text-white">Link 4</a></li>
-                            <li><a href="#" className="text-white">Link 5</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 1</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 2</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 3</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 4</a></li>
+                            <li><a href="https://bcc.gov.bd/" className="text-white">Link 5</a></li>
                         </ul>
                     </div>
                     <div className="col-md-4">
