@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faComputer, faCoffee, faCode, faCloud, faBucket, faCog } from '@fortawesome/free-solid-svg-icons';
+import { faComputer } from '@fortawesome/free-solid-svg-icons';
 export const Features = (props) => {
   return (
     <div id="features" className="text-center">
@@ -14,7 +14,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-md-6 col-md-3">
                   {" "}
-                  <FontAwesomeIcon icon={faComputer} style={{color: 'white'}}/>
+                  <FontAwesomeIcon icon={faComputer} style={{color: 'blue'}}/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>

@@ -1,21 +1,23 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa';
-import logoImage from './quicksign.png';
+import logoImage from './docu.png';
+import "../css/Footer.css";
 
 const Footer = () => {
     return (
         <footer className=" bg-light">
+            <br/>
             <Container>
                 <Row>
                     <Col md={4}>
-                        {/*<img src={logoImage} class="img-fluid" alt="Responsive image" />*/}
+                        <img src={logoImage} class="img-fluid" alt="Responsive image" />
                     </Col>
                     <Col md={4}>
                         <h5>Quick Links</h5>
-                        <ul className="list-inline">
-                            <li className="list-inline-item"><a href="#">Terms of Service</a></li>
-                            <li className="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        <ul className="list">
+                            <li className="list-item"><a href="#">Terms of Service</a></li>
+                            <li className="list-item"><a href="#">Privacy Policy</a></li>
                         </ul>
                     </Col>
                     <Col md={4}>
@@ -28,7 +30,9 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <span>&copy; 2021 Your Company Name</span>
+            <div className="text-center mt-4">
+                <p className="footer-copyright">© 2024 Your Company Name. All rights reserved.</p>
+            </div>
         </footer>
     );
 };

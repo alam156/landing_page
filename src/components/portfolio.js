@@ -8,7 +8,7 @@ import SmoothScroll from "smooth-scroll";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/style.css'
 //import BlackFooter from "BlackFooter";
-//import Footer from "./Footer";
+import Footer from "./Footer";
 import NavBar from "./Navbar";
 //import AccordionFAQ from "../AccordionFAQ";
 import SigningSteps from "./SigningSteps";
@@ -18,6 +18,8 @@ import GridItems from "./GridItems";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
+import {Features} from "./features";
+import BlackFooterBootstrap from "./BlackFooterBootstrap";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -85,7 +87,7 @@ const Portfolio = () => {
             <div className='row mb-5'>
                 <GridItems />
             </div>
-            {/*<Features data={landingPageData['Features']} />*/}
+            <Features data={landingPageData['Features']} />
             <div>
                 <About data={landingPageData['About']} />
             </div>
@@ -164,8 +166,9 @@ const Portfolio = () => {
             <div>
                 <CarLogos />
             </div>
+            <BlackFooterBootstrap/>
             {/*<BlackFooter/>*/}
-            {/*<Footer/>*/}
+            <Footer/>
             {/*<Team data={landingPageData['Team']} />*/}
             {/*<Contact data={landingPageData['Contact']} />*/}
         </div>
