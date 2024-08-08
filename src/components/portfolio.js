@@ -158,7 +158,22 @@ const Portfolio = () => {
                 <div className="section-title text-center">
                     <h2>Characteristics</h2>
                 </div>
-                <FeaturesJumbotron></FeaturesJumbotron>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-1">
+
+                        </div>
+                        <div className="col-md-10">
+                            <FeaturesJumbotron></FeaturesJumbotron>
+                        </div>
+                        <div className="col-md-1">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
             <div>
                 <div className="section-title text-center">
