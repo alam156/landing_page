@@ -21,10 +21,10 @@ import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true,
-});
+// export const scroll = new SmoothScroll('a[href*="#"]', {
+//     speed: 1000,
+//     speedAsDuration: true,
+// });
 
 const Portfolio = () => {
     const [landingPageData, setLandingPageData] = useState({});
