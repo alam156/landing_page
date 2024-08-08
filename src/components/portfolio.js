@@ -85,14 +85,47 @@ const Portfolio = () => {
                 <h2 className="mt-4 mb-4">Why Customer choose us?</h2>
             </div>
             <div className='row mb-5'>
-                <GridItems />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-1">
+
+                        </div>
+                        <div className="col-md-10">
+                            <GridItems />
+                        </div>
+                        <div className="col-md-1">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
             <Features data={landingPageData['Features']} />
             <div>
-                <About data={landingPageData['About']} />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-1">
+
+                        </div>
+                        <div className="col-md-10">
+                            <About data={landingPageData['About']} />
+                        </div>
+                        <div className="col-md-1">
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
             <div>
-                <Services data={landingPageData['Services']} />
+                <div className="container">
+                    <Services data={landingPageData['Services']} />
+
+                </div>
+
             </div>
 
             {/*<Gallery data={landingPageData['Gallery']} />*/}

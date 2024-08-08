@@ -15,6 +15,7 @@ const SigningSteps = () => (
                             src={Image1}
                             alt="Service 1"
                             className="img-fluid mb-3"
+                            style={{ width: '50%', height: 'auto' }}
                         />
                     </Col>
                     <Col md={6}>
@@ -58,6 +59,7 @@ const SigningSteps = () => (
                             src={Image2}
                             alt="Service 1"
                             className="img-fluid mb-3"
+                            style={{ width: '50%', height: 'auto' }}
                         />
                     </Col>
 
@@ -68,6 +70,7 @@ const SigningSteps = () => (
                             src={Image3}
                             alt="Service 1"
                             className="img-fluid mb-3"
+                            style={{ width: '50%', height: 'auto' }}
                         />
                     </Col>
                     <Col md={6}>
@@ -101,6 +104,7 @@ const SigningSteps = () => (
                             src={Image4}
                             alt="Service 1"
                             className="img-fluid mb-3"
+                            style={{ width: '50%', height: 'auto' }}
                         />
                     </Col>
 

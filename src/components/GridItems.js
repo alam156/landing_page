@@ -65,7 +65,7 @@ const GridItems = () => {
                                 src={item.icon}
                                 alt=""
                                 className="img-fluid"
-                                style={{ width: '100%', height: 'auto' }}
+                                style={{ width: '30%', height: '50%' }}
                             />
 
                             <h4 className="grid-title">{item.title}</h4>
