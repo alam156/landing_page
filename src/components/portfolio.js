@@ -77,7 +77,7 @@ const Portfolio = () => {
 
     return (
         <div>
-            <div className="navbar-fixed">
+            <div className="container">
                 <NavBar />
             </div>
             <Header data={landingPageData['Header']} />
