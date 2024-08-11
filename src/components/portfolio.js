@@ -76,7 +76,7 @@ const Portfolio = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div>
             <div className="container">
                 <NavBar />
             </div>
