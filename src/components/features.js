@@ -14,7 +14,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-md-6 col-md-3">
                   {" "}
-                  <FontAwesomeIcon icon={faComputer} style={{color: 'blue'}}/>
+                  <FontAwesomeIcon icon={faComputer} style={{color: 'blue'}} size="3x"/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>

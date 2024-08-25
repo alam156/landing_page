@@ -34,3 +34,6 @@ ul.dropdown-menu {
 .small-text {
     font-size: 0.8rem; /* or any other size you prefer */
 }
+.bg-light {
+    opacity: 0.75;
+}

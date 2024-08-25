@@ -20,6 +20,7 @@ import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
+import Flowchart from "./Flowchart";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -121,10 +122,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div>
-                <div className="container">
-                    <Services data={landingPageData['Services']} />
-
-                </div>
+                <Services data={landingPageData['Services']} />
 
             </div>
 
@@ -181,6 +179,9 @@ const Portfolio = () => {
                 </div>
                 <SigningSteps></SigningSteps>
             </div>
+            {/*<div>
+                <Flowchart/>
+            </div>*/}
             <div>
                 <div className="section-title text-center">
                     <h2>QuickSign App Pricing</h2>
