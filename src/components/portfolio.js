@@ -20,7 +20,6 @@ import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
-import Flowchart from "./Flowchart";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
