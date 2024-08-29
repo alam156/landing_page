@@ -219,6 +219,16 @@
       "icon": "fa fa-magic",
       "title": "Non-repudiation",
       "text": "Due to the unique identification features and encryption associated with digital signatures, signees cannot deny their association with a signed document, providing strong legal enforceability."
+    },
+    {
+      "icon": "fa fa-basketball",
+      "title": "Audit Trails",
+      "text": "Each document signed digitally includes a comprehensive audit trail that records who signed the document, when they signed it, and the IP address from which it was signed, helping maintain compliance and traceability."
+    },
+    {
+      "icon": "fa fa-award",
+      "title": "Time Stamping",
+      "text": "Digital signatures often incorporate time stamps that provide a verifiable date and time at which the signature was applied, ensuring the integrity and temporal validity of the document."
     }
   ],
   "Faq": [
