@@ -39,7 +39,7 @@ export const Features = (props) => {
                                   className="mb-3 custom-icon"
                               />
                               <h3 className="h5 font-weight-bold text-black">{d.title}</h3>
-                              <p className="text-muted text-black-50">{d.text}</p>
+                              <p className="text-muted text-black-50" align ="justify">{d.text}</p>
                           </div>
                       </div>
                   ))

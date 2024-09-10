@@ -1,4 +1,96 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Image1 from '../album/service_image_1.jpeg';
+import Image2 from '../album/service_image_2.jpeg';
+import Image3 from '../album/service_image_3.jpeg';
+import Image4 from '../album/service_image_4.jpeg';
+
+const FrontPage = () => (
+    <Container>
+
+        <Row className="step-row mb-4">
+            <Col md={6}>
+                <img src={Image1} alt="Service 1" className="img-fluid mb-3" style={{ width: '100%', height: '338.926px', objectFit: 'cover' }} />
+            </Col>
+            <Col md={6}>
+                <div className="container">
+                    <ol className="list-group">
+                        <li className="list-group-item list-group-item-primary"><h3>Step 1 : Registration</h3></li>
+                        <li className="list-group-item list-group-item-success">Download QuickPass app from android app store in mobile.</li>
+                        <li className="list-group-item list-group-item-info">Click Create New Account in QuickPass app.</li>
+                        <li className="list-group-item list-group-item-success">Tick the privacy policy checkbox and click 'Start’.</li>
+                        <li className="list-group-item list-group-item-info">Enter mobile number and click 'Send OTP'.</li>
+                        <li className="list-group-item list-group-item-success">Submit the OTP sent to your mobile.</li>
+                        <li className="list-group-item list-group-item-info">Verify National ID (NID) by taking an image or entering NID manually.</li>
+                        <li className="list-group-item list-group-item-success">Provide your email ID, set a password, and click 'Submit'.</li>
+                    </ol>
+                </div>
+            </Col>
+        </Row>
+
+
+        <Row className="step-row mb-4">
+            <Col md={6}>
+                <div className="container">
+                    <ul className="list-group">
+                        <li className="list-group-item list-group-item-primary"><h3>Step 2 : Device Registration</h3></li>
+                        <li className="list-group-item list-group-item-success">Login into the QuickPass app.</li>
+                        <li className="list-group-item list-group-item-info">Click 'Remote Authorization' (an OTP will be sent to your email).</li>
+                        <li className="list-group-item list-group-item-success">Submit the OTP and click Verify OTP (you will get “Device Registered” message).</li>
+                    </ul>
+                </div>
+            </Col>
+            <Col md={6}>
+                <img src={Image2} alt="Service 2" className="img-fluid mb-3" style={{ width: '100%', height: '174.082px', objectFit: 'cover' }} />
+            </Col>
+        </Row>
+
+
+        <Row className="step-row mb-4">
+            <Col md={6}>
+                <img src={Image3} alt="Service 3" className="img-fluid mb-3" style={{ width: '100%', height: '462.559px', objectFit: 'cover' }} />
+            </Col>
+            <Col md={6}>
+                <div className="container">
+                    <ul className="list-group">
+                        <li className="list-group-item list-group-item-primary"><h3>Step 3 : Signing</h3></li>
+                        <li className="list-group-item list-group-item-success">Click 'Login' (portal’s homepage).</li>
+                        <li className="list-group-item list-group-item-info">Enter your mobile number and PIN used during registration.</li>
+                        <li className="list-group-item list-group-item-success">Click 'New Workflow' to sign the document.</li>
+                        <li className="list-group-item list-group-item-info">Upload the document you want to sign.</li>
+                        <li className="list-group-item list-group-item-success">Provide the name and email of the recipient.</li>
+                        <li className="list-group-item list-group-item-info">Click the 'Next' button.</li>
+                        <li className="list-group-item list-group-item-success">Click on 'Signature' and place it where you want to sign.</li>
+                        <li className="list-group-item list-group-item-info">Click 'Save'.</li>
+                        <li className="list-group-item list-group-item-success">Upload or draw your handwritten signature.</li>
+                        <li className="list-group-item list-group-item-info">Then click the 'Sign Now' button.</li>
+                    </ul>
+                </div>
+            </Col>
+        </Row>
+
+
+        <Row className="step-row mb-4">
+            <Col md={6}>
+                <div className="container">
+                    <ul className="list-group">
+                        <li className="list-group-item list-group-item-primary"><h3>Step 4 : Authorization</h3></li>
+                        <li className="list-group-item list-group-item-success">Sign in to your QuickPass mobile app (after clicking 'Sign Now').</li>
+                        <li className="list-group-item list-group-item-info">Click 'Signature Authorization'.</li>
+                    </ul>
+                </div>
+            </Col>
+            <Col md={6}>
+                <img src={Image4} alt="Service 4" className="img-fluid mb-3" style={{ width: '50%', height: '195.156', objectFit: 'cover' }} />
+            </Col>
+        </Row>
+    </Container>
+);
+
+export default FrontPage;
+
+{/* This is a comment in JSX
+import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import Image1 from '../album/service_image_1.jpeg';
 import Image2 from '../album/service_image_2.jpeg';
@@ -15,96 +107,137 @@ const SigningSteps = () => (
                             src={Image1}
                             alt="Service 1"
                             className="img-fluid mb-3"
-                            style={{ width: '50%', height: 'auto' }}
+                            style={{ width: '80', height: 'auto' }}
                         />
                     </Col>
                     <Col md={6}>
-                        <h3>Registration</h3>
-                        <p>
-                            Registering on our portal is quick and easy. Follow these simple steps to get started:
-
-                            Visit our portal's homepage and click on the "Register" button.
-                            Fill in your personal details, including your name, email, and contact number.
-                            Create a strong password to secure your account.
-                            Agree to our terms and conditions by checking the appropriate box.
-                            Click "Submit" to complete your registration.
-                            Check your email for a verification link and click on it to verify your account.
-                            Once verified, log in to the portal using your email and password.
-                            Update your profile with additional information to enhance your experience.
-                            Explore the portal's features and resources available to registered users.
-                            For any assistance, visit our Help section or contact support.
-                        </p>
+                        <div className="container">
+                            <ul className="list-group">
+                                <li className="list-group-item list-group-item-primary"><h3>Step 1 : Registration</h3></li>
+                                <li className="list-group-item list-group-item-success">Download QuickPass app from
+                                    android app store in mobile.
+                                </li>
+                                <li className="list-group-item list-group-item-info">Click Create New Account in
+                                    QuickPass app.
+                                </li>
+                                <li className="list-group-item list-group-item-success">Tick the privacy policy
+                                    checkbox and click 'Start’.
+                                </li>
+                                <li className="list-group-item list-group-item-info">Enter mobile number and click
+                                    'Send OTP'.
+                                </li>
+                                <li className="list-group-item list-group-item-success">Submit the provided OTP sent to
+                                    your mobile.
+                                </li>
+                                <li className="list-group-item list-group-item-info">Verify National ID (NID) by
+                                    taking an image of it or by manually entering NID number and birthdate.
+                                </li>
+                                <li className="list-group-item list-group-item-success">Provide your email ID, set a
+                                    password, and press the 'Submit' button.
+                                </li>
+                            </ul>
+                        </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="justify-content-center"  style={{ width: '100%', height: '1%' }}></Row>
+                <Row  >
                     <Col md={6}>
-                        <h3>Quick Enroll</h3>
-                        <p>
-                            Enrolling in our portal is straightforward and user-friendly. Follow these steps to join:
+                        <div className="container">
+                            <ul className="list-group">
+                                <li className="list-group-item list-group-item-primary"><h3>Step 2 : Device Registration</h3></li>
+                                <li className="list-group-item list-group-item-success">Login into the QuickPass
+                                    app.
+                                </li>
+                                <li className="list-group-item list-group-item-info">Click 'Remote Authorization'
+                                    (an OTP will be sent to your email)
+                                </li>
+                                <li className="list-group-item list-group-item-success">Submit the OTP and click
+                                    Verify OTP (you will get “Device Registered” message)
+                                </li>
+                            </ul>
+                        </div>
 
-                            Navigate to the portal's homepage and click on the "Enroll Now" button.
-                            Provide your basic information, including full name, email address, and phone number.
-                            Select a unique username for your account.
-                            Choose a secure password and confirm it.
-                            Review and accept our privacy policy and terms of service.
-                            Click "Enroll" to submit your details.
-                            Check your email for an enrollment confirmation message.
-                            Follow the instructions in the email to activate your account.
-                            Log in to the portal with your new credentials.
-                            Start exploring the features and benefits available to enrolled members.
-                        </p>
                     </Col>
                     <Col md={6}>
-                        <img
+                    <img
                             src={Image2}
                             alt="Service 1"
                             className="img-fluid mb-3"
-                            style={{ width: '50%', height: 'auto' }}
+                            style={{width: '50%', height: 'auto'}}
                         />
                     </Col>
 
                 </Row>
+                <Row className="justify-content-center"  style={{ width: '100%', height: '1%' }}></Row>
                 <Row>
                     <Col md={6}>
                         <img
                             src={Image3}
                             alt="Service 1"
                             className="img-fluid mb-3"
-                            style={{ width: '50%', height: 'auto' }}
+                            style={{ width: '100%', height: 'auto' }}
                         />
                     </Col>
                     <Col md={6}>
-                        <h3>Quick Pair</h3>
-                        <p>
-                            Generating a key pair is an essential step for secure communication and authentication. Follow these steps to create your key pair:
-
-                            Open your terminal or command prompt.
-                            Use a key generation tool, such as ssh-keygen for SSH keys.
-                            Run the command ssh-keygen -t rsa -b 4096 to generate a strong RSA key pair.
-                            When prompted, enter a file name to save the key (or press Enter to accept the default location).
-                            Optionally, enter a passphrase for added security.
-                            The tool will create two files: a private key (id_rsa) and a public key (id_rsa.pub).
-                            Store the private key securely and never share it.
-                            Copy the public key to the server or service where you need authentication.
-                            Set the appropriate permissions for the private key (chmod 600 id_rsa).
-                            Test your key pair by using the public key for secure logins or communication.
-                            With your key pair generated, you can now securely authenticate and encrypt your data.
-                        </p>
+                        <div className="container">
+                            <ul className="list-group">
+                                <li className="list-group-item list-group-item-primary"><h3>Step 3 : Signing</h3>
+                                </li>
+                                <li className="list-group-item list-group-item-success">Click 'Login'(portal’s
+                                    homepage)
+                                </li>
+                                <li className="list-group-item list-group-item-info">Enter the mobile number and PIN
+                                    (used during registration)
+                                </li>
+                                <li className="list-group-item list-group-item-success">Click the 'New Workflow'
+                                    button to sign the document
+                                </li>
+                                <li className="list-group-item list-group-item-info">Upload the document you want
+                                    to sign
+                                </li>
+                                <li className="list-group-item list-group-item-success">Provide the name and email
+                                    of the person you want to send the document
+                                </li>
+                                <li className="list-group-item list-group-item-info">Click the 'Next' button</li>
+                                <li className="list-group-item list-group-item-success">Click on the 'Signature'
+                                    button and place it where you want to sign.
+                                </li>
+                                <li className="list-group-item list-group-item-info">Click 'Save’ button</li>
+                                <li className="list-group-item list-group-item-success">Clicking on the 'Signature'
+                                    box
+                                </li>
+                                <li className="list-group-item list-group-item-info">Upload or draw your handwritten
+                                    signature
+                                </li>
+                                <li className="list-group-item list-group-item-success">Then click the 'Sign Now'
+                                    button.
+                                </li>
+                            </ul>
+                        </div>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6}>
-                        <h3>Efficiency</h3>
-                        <p>
-                            Digital signatures offer a more efficient and convenient way to sign documents compared to traditional wet ink signatures. With digital signatures, there is no need to print out documents, sign them by hand, and then scan or mail them back. Instead, the entire process can be done electronically, saving time and reducing the need for physical storage space. Additionally, digital signatures can be easily integrated into existing workflows and systems, making it easier to manage and track signed documents.
-                        </p>
-                    </Col>
+                <Col md={6}>
+                        <div className="container">
+                            <ul className="list-group">
+                                <li className="list-group-item list-group-item-primary"><h3>Step 4 :
+                                    Authorization</h3>
+                                </li>
+                                <li className="list-group-item list-group-item-success">Sign in to your QuickPass mobile
+                                    app (After clicking the 'Sign Now' button)
+                                </li>
+                                <li className="list-group-item list-group-item-info"> Click 'Signature Authorization’
+                                </li>
+                            </ul>
+                        </div>
+
+                </Col>
                     <Col md={6}>
                         <img
                             src={Image4}
                             alt="Service 1"
                             className="img-fluid mb-3"
-                            style={{ width: '50%', height: 'auto' }}
+                            style={{width: '50%', height: 'auto'}}
                         />
                     </Col>
 
@@ -114,4 +247,4 @@ const SigningSteps = () => (
         </Row>
 
     </Container>);
-export default SigningSteps;
+export default SigningSteps;*/}
