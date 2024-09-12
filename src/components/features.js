@@ -29,8 +29,7 @@ export const Features = (props) => {
 
           </div>
           <div className="row">
-              {props.data ? (
-                  props.data.map((d, i) => (
+              {props.data ? (props.data.map((d, i) => (
                       <div key={`${d.title}-${i}`} className="col-md-6 col-lg-4 mb-4">
                           <div className="card h-100 text-center border-0 shadow-sm p-4 custom-card">
                               <FontAwesomeIcon
@@ -43,9 +42,7 @@ export const Features = (props) => {
                           </div>
                       </div>
                   ))
-              ) : (
-                  "Loading..."
-              )}
+              ) : ("Loading...")}
           </div>
         {/*<div className="row">
           {props.data

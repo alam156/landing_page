@@ -25,7 +25,7 @@ export const About = (props) => {
                           ? props.data.Why.map((d, i) => (
                               <li key={`${d}-${i}`}>{d}</li>
                           ))
-                          : "Loading"}
+                          : "Loading..."}
                     </ul>
                   </div>
                   <div className="col-sm-6">
@@ -34,7 +34,7 @@ export const About = (props) => {
                           ? props.data.Why2.map((d, i) => (
                               <li key={`${d}-${i}`}>{d}</li>
                           ))
-                          : "Loading"}
+                          : "Loading..."}
                     </ul>
                   </div>
                 </div>

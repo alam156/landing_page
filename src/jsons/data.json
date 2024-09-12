@@ -3,6 +3,70 @@
     "title": "Quicksign Landing Page",
     "paragraph": "Quicksign streamlines document signing processes with its secure, user-friendly, and efficient remote digital signing platform."
   },
+  "GridIItems": [
+    {"icon": "./icons/icon1.png",
+    "title": "Local Certificate & Signing",
+    "description": "BCC provides users an easy to use online portal(bcc-ca.gov.bd) where user can apply for certificates for theirlocally held keypair (in operating system keystore or in usb dongle)BCC provides desktop tools to the users for helping them creating keypair and downloading and installing certificates. Users can use their locally held keypair and certificate to locally sign any document/data/software etc. BCC also provides necessary tools and services so that third partybusiness applications can easily enable local signing in their workflow."
+    },
+    { "icon": "./icons/icon2.png",
+      "title": "Identity Certificate",
+      "description": "Identity Certificate is mainly used to prove someone’s identity in any information system or in any system the internet or digital space. For example, with this certificate someone can sign a document of any format (pdf/doc/excel/ppt/etc.) or any online form to prove that he/she knowingly sign this with his/her legally valid digital identity.</p>"
+    },
+    { "icon": "./icons/icon3.png",
+      "title": "SSL Client Authority Certificate",
+      "description": "SSL Client Authentication certificate is used along with the SSL Server certificate to allow users to log in to any system using TLS authentication. This certificate can not be used without any SSL based systems and require configuring the web server to accept the SSL based authentication. This is popular to enable two factor authentication of a system and to strengthen the authentication system of a system."
+    },
+    { "icon": "./icons/icon4.png",
+      "title": "Code Signing Certificate",
+      "description": "<p Code Signing Certificate is used mainly by the Publisher of a Software to ensure the authenticity of their Software. All trusted software is usually digitally signed with code signing certificates. This certificate is popular among Software companies."
+    },
+    { "icon": "./icons/icon5.png",
+      "title": "Encryption Certificate",
+      "description": "Encryption certificate is used to encrypt any files, directory, file systems, partition or devices). BCC CA provides key escrow service only for this kind of service and this is only available under Class 3 i.e. after physical verification."
+    },
+    { "icon": "./icons/icon6.png",
+      "title": "Timestamping Services provided by BCC",
+      "description": "Timestamping can be used to independently and irrefutably prove the time of a transaction, the time a document was signed and when it was archived. BCC provides timestamping as an API service."
+    }
+
+  ],
+  "SigningStepss": {
+
+    "Registration": [
+
+      "Download QuickPass app from android app store in mobile",
+      "Click Create New Account in QuickPass app.",
+      "Tick the privacy policy checkbox and click 'Start’",
+      "Enter mobile number and click 'Send OTP'",
+      "Submit the OTP sent to your mobile",
+      "Verify National ID (NID) by taking an image or entering NID manually",
+      "Provide your email ID, set a password, and click 'Submit'"
+    ],
+    "Device_Registration": [
+      "Login into the QuickPass app",
+      "Remote Authorization' (an OTP will be sent to your email)",
+      "Submit the OTP and click Verify OTP (you will get “Device Registered” message)"
+    ],
+    "Signing": [
+
+      "Click 'Login' (portal’s homepage)",
+      "Enter your mobile number and PIN used during registration",
+      "Click 'New Workflow' to sign the document",
+      "Upload the document you want to sign",
+      "Provide the name and email of the recipient",
+      "Click the 'Next' button",
+      "Click on 'Signature' and place it where you want to sign",
+      "Click 'Save'",
+      "Upload or draw your handwritten signature",
+      "Then click the 'Sign Now' button"
+    ],
+    "Authorization": [
+
+      "Sign in to your QuickPass mobile app (after clicking 'Sign Now')",
+      "Click 'Signature Authorization'"
+    ]
+  },
+
   "About": {
     "paragraph": "why you should use remote digital signature?",
     "Why": [

@@ -11,10 +11,10 @@ import '../css/style.css'
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 //import AccordionFAQ from "../AccordionFAQ";
-import SigningSteps from "./SigningSteps";
+import { SigningStepss } from "./SigningSteps";
 import CarLogos from "./CarLogos";
 import FeaturesJumbotron from "./FeaturesJumbotron";
-import GridItems from "./GridItems";
+import {GridIItems} from "./GridItems";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
@@ -91,7 +91,7 @@ const Portfolio = () => {
 
                         </div>
                         <div className="col-md-10">
-                            <GridItems />
+                            <GridIItems  data={landingPageData['GridIItems']}/>
                         </div>
                         <div className="col-md-1">
 
@@ -176,7 +176,10 @@ const Portfolio = () => {
                 <div className="section-title text-center">
                     <h2>QuickSign Signing Steps</h2>
                 </div>
-                <SigningSteps></SigningSteps>
+
+                 <SigningStepss data={landingPageData['SigningStepss']} />
+
+
             </div>
             {/*<div>
                 <Flowchart/>

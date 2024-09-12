@@ -1,9 +1,10 @@
 import React from 'react';
 import '../css/GridItems.css';
+//import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
-const GridItems = () => {
-    const gridItems = [
+export const GridIItems = (props) => {
+    /*const gridItems = [
         {
             icon: './icons/icon1.png',
             title: 'Local Certificate & Signing',
@@ -53,9 +54,10 @@ const GridItems = () => {
             description: <p align={"justify"}>Timestamping can be used to independently and irrefutably prove the time of a transaction,
                 the time a document was signed and when it was archived. BCC provides timestamping as an API service.</p>
         }
-    ];
+    ];*/
 
-    return (
+
+    /* return (
         <div className="grid-items">
             <div className="row">
                 {gridItems.map((item, index) => (
@@ -105,8 +107,40 @@ const GridItems = () => {
                     </div>
                 ))}
             </div>
-        </div>*/
+        </div>///akhane break
     );
-};
+};*/
 
-export default GridItems;
+
+
+    return (
+        <div className="grid-items">
+            <div className="row">
+                {props.data?props.data.map((d, i)=>  (
+                    <div className="col-md-4 mb-4" key={`${d.title}-${i}`}>
+                        <div className="grid-item border-top-green">
+                            <div className="row justify-content-center">
+                                <img
+                                    src={d.icon}
+                                    alt=""
+                                    className="img-fluid"
+                                    style={{ width: '100px', height: '100px' }} // Fixed size for the image
+                                />
+                            </div>
+                            <div>
+                                <h4 className="grid-title" style={{ minHeight: '50px' }}>
+                                    {d.title}
+                                </h4>
+                                <p className="grid-description" style={{ minHeight: '70px' }}>
+                                    {d.description}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                )): ("loading...") }
+            </div>
+        </div>
+
+);
+};
+//export default GridItems;
