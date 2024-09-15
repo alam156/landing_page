@@ -131,7 +131,7 @@ export const GridIItems = (props) => {
                                 <h4 className="grid-title" style={{ minHeight: '50px' }}>
                                     {d.title}
                                 </h4>
-                                <p className="grid-description" style={{ minHeight: '70px' }}>
+                                <p align={"justify"} className="grid-description" style={{ minHeight: '70px' }}>
                                     {d.description}
                                 </p>
                             </div>

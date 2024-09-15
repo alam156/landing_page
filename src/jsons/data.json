@@ -10,7 +10,7 @@
     },
     { "icon": "./icons/icon2.png",
       "title": "Identity Certificate",
-      "description": "Identity Certificate is mainly used to prove someone’s identity in any information system or in any system the internet or digital space. For example, with this certificate someone can sign a document of any format (pdf/doc/excel/ppt/etc.) or any online form to prove that he/she knowingly sign this with his/her legally valid digital identity.</p>"
+      "description": "Identity Certificate is mainly used to prove someone’s identity in any information system or in any system the internet or digital space. For example, with this certificate someone can sign a document of any format (pdf/doc/excel/ppt/etc.) or any online form to prove that he/she knowingly sign this with his/her legally valid digital identity "
     },
     { "icon": "./icons/icon3.png",
       "title": "SSL Client Authority Certificate",
@@ -18,7 +18,7 @@
     },
     { "icon": "./icons/icon4.png",
       "title": "Code Signing Certificate",
-      "description": "<p Code Signing Certificate is used mainly by the Publisher of a Software to ensure the authenticity of their Software. All trusted software is usually digitally signed with code signing certificates. This certificate is popular among Software companies."
+      "description": "Code Signing Certificate is used mainly by the Publisher of a Software to ensure the authenticity of their Software. All trusted software is usually digitally signed with code signing certificates. This certificate is popular among Software companies."
     },
     { "icon": "./icons/icon5.png",
       "title": "Encryption Certificate",
