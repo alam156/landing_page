@@ -20,7 +20,7 @@ export const SigningStepss = (props) => {
                                 </li>
                                 {props.data
                                     ? props.data.Registration.map((d, i) => (
-                                        <li className="list-group-item list-group-item-info" key={`${d}-${i}`}>{d}</li>
+                                        <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'} key={`${d}-${i}`}>{d}</li>
                                     ))
                                     : "Loading..."}
                                 { /* <li className="list-group-item list-group-item-primary"><h3>Step 1 : Registration</h3></li>
@@ -42,7 +42,7 @@ export const SigningStepss = (props) => {
                         <li className="list-group-item list-group-item-primary"><h3>Step 2 : Device Registration</h3></li>
                         {props.data
                             ? props.data.Device_Registration.map((d, i) => (
-                                <li className="list-group-item list-group-item-info" key={`${d}-${i}`}>{d}</li>
+                                <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'} key={`${d}-${i}`}>{d}</li>
                             ))
                             : "Loading..."}
                         {/*<li className="list-group-item list-group-item-primary"><h3>Step 2 : Device Registration</h3></li>
@@ -66,7 +66,7 @@ export const SigningStepss = (props) => {
                     <li className="list-group-item list-group-item-primary"><h3>Step 3 : Signing</h3></li>
                     {props.data
                         ? props.data.Signing.map((d, i) => (
-                            <li className="list-group-item list-group-item-info" key={`${d}-${i}`}>{d}</li>
+                            <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'}key={`${d}-${i}`}>{d}</li>
                         ))
                         : "Loading..."}
                     {/* <li className="list-group-item list-group-item-primary"><h3>Step 3 : Signing</h3></li>
@@ -93,7 +93,7 @@ export const SigningStepss = (props) => {
                     <li className="list-group-item list-group-item-primary">   <h3>Step 4 : Authorization</h3></li>
                     {props.data
                         ? props.data.Authorization.map((d, i) => (
-                            <li className="list-group-item list-group-item-info" key={`${d}-${i}`}>{d}</li>
+                            <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'} key={`${d}-${i}`}>{d}</li>
                         ))
                         : "Loading..."}
                     {/* <li className="list-group-item list-group-item-primary"><h3>Step 4 : Authorization</h3></li>
