@@ -73,39 +73,37 @@ const BlackFooterBootstrap = () => {
                         <ul className="list-unstyled">
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank"
-                                   href="https://play.google.com/store/apps/details?id=com.bcc.quickpass">QuickPass App
+                                <a href="https://play.google.com/store/apps/details?id=com.bcc.quickpass">QuickPass App
                                     (android)</a>
                             </li>
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank"
-                                   href="https://apps.apple.com/us/app/quickpass-bcc-ca/id1659265653?itsct=apps_box_badge&itscg=30200">QuickPass
+                                <a href="https://apps.apple.com/us/app/quickpass-bcc-ca/id1659265653?itsct=apps_box_badge&itscg=30200">QuickPass
                                     App (iOS)</a>
                             </li>
 
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank" href="https://quicksign.bcc-ca.gov.bd/">QuickSign eSignature
+                                <a href="https://quicksign.bcc-ca.gov.bd/">QuickSign eSignature
                                     Portal</a>
                             </li>
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank" href="http://www.cca.gov.bd/">Controller of Certifying Authority</a>
+                                <a href="http://www.cca.gov.bd/">Controller of Certifying Authority</a>
                             </li>
 
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank" href="https://digisigchecker.cca.gov.bd/">Verify Digital
+                                <a href="https://digisigchecker.cca.gov.bd/">Verify Digital
                                     Signature</a>
                             </li>
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank" href="https://ndc.bcc.gov.bd/">National Data Center Bangladesh</a>
+                                <a href="https://ndc.bcc.gov.bd/">National Data Center Bangladesh</a>
                             </li>
                             <li>
                                 <i className="fa fa-angle-right"></i>
-                                <a target="_blank" href="http://www.cirt.gov.bd/">BGD e-GOV CIRT</a>
+                                <a href="http://www.cirt.gov.bd/">BGD e-GOV CIRT</a>
                             </li>
 
                         </ul>
