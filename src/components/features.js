@@ -29,8 +29,7 @@ export const Features = (props) => {
 
           </div>
           <div className="row">
-              {props.data ? (
-                  props.data.map((d, i) => (
+              {props.data ? (props.data.map((d, i) => (
                       <div key={`${d.title}-${i}`} className="col-md-6 col-lg-4 mb-4">
                           <div className="card h-100 text-center border-0 shadow-sm p-4 custom-card">
                               <FontAwesomeIcon
@@ -39,13 +38,11 @@ export const Features = (props) => {
                                   className="mb-3 custom-icon"
                               />
                               <h3 className="h5 font-weight-bold text-black">{d.title}</h3>
-                              <p className="text-muted text-black-50">{d.text}</p>
+                              <p className="text-muted text-black-50" align ="justify">{d.text}</p>
                           </div>
                       </div>
                   ))
-              ) : (
-                  "Loading..."
-              )}
+              ) : ("Loading...")}
           </div>
         {/*<div className="row">
           {props.data

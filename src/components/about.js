@@ -16,7 +16,7 @@ export const About = (props) => {
             <div className="col-md-6">
               <div className="about-text">
                 <h2>About Us</h2>
-                <p>{props.data ? props.data.paragraph : "Loading..."}</p>
+                <p align ="justify" >{props.data ? props.data.paragraph : "Loading..."}</p>
                 <h3>Why Choose Us?</h3>
                 <div className="row">
                   <div className="col-sm-6">
@@ -25,7 +25,7 @@ export const About = (props) => {
                           ? props.data.Why.map((d, i) => (
                               <li key={`${d}-${i}`}>{d}</li>
                           ))
-                          : "Loading"}
+                          : "Loading..."}
                     </ul>
                   </div>
                   <div className="col-sm-6">
@@ -34,7 +34,7 @@ export const About = (props) => {
                           ? props.data.Why2.map((d, i) => (
                               <li key={`${d}-${i}`}>{d}</li>
                           ))
-                          : "Loading"}
+                          : "Loading..."}
                     </ul>
                   </div>
                 </div>
