@@ -3,7 +3,7 @@
     "title": "Quicksign Landing Page check",
     "paragraph": "Quicksign streamlines document signing processes with its secure, user-friendly, and efficient remote digital signing platform."
   },
-  "GridIItems": [
+  "GridItems": [
     {"icon": "./icons/icon1.png",
     "title": "Local Certificate & Signing",
     "description": "BCC provides users an easy to use online portal(bcc-ca.gov.bd) where user can apply for certificates for theirlocally held keypair (in operating system keystore or in usb dongle)BCC provides desktop tools to the users for helping them creating keypair and downloading and installing certificates. Users can use their locally held keypair and certificate to locally sign any document/data/software etc. BCC also provides necessary tools and services so that third partybusiness applications can easily enable local signing in their workflow."

@@ -14,7 +14,7 @@ import NavBar from "./Navbar";
 import { SigningStepss } from "./SigningSteps";
 import CarLogos from "./CarLogos";
 import FeaturesJumbotron from "./FeaturesJumbotron";
-import {GridIItems} from "./GridItems";
+import {GridIItems, GridItems} from "./GridItems";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
@@ -93,7 +93,7 @@ const Portfolio = () => {
 
                         </div>
                         <div className="col-md-10">
-                            <GridIItems data={landingPageData['GridIItems']}/>
+                            <GridItems data={landingPageData['GridItems']}/>
                         </div>
                         <div className="col-md-1">
 

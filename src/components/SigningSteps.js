@@ -1,4 +1,98 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Image1 from '../album/service_image_1.jpeg';
+import Image2 from '../album/service_image_2.jpeg';
+import Image3 from '../album/service_image_3.jpeg';
+import Image4 from '../album/service_image_4.jpeg';
+
+export const SigningStepss = (props) => {
+    //export const Features = (props) => {
+    return (
+        <Container  >
+            <Row className="step-row mb-4">
+                <Col md={6}>
+                    <img src={Image1} alt="Service 1" className="img-fluid mb-3" style={{ width: '100%', height: '338.926px', objectFit: 'cover' }} />
+                </Col>
+                <Col md={6}>
+                    <div className="container">
+                        <ol className="list-group">
+                            <li className="list-group-item list-group-item-primary"><h3>Step 1 : Registration</h3>
+                            </li>
+                            {props.data
+                                ? props.data.Registration.map((d, i) => (
+                                    <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'} key={`${d}-${i}`}>{d}</li>
+                                ))
+                                : "Loading..."}
+
+                        </ol>
+                    </div>
+                </Col>
+            </Row>
+            <Row className="step-row mb-4">
+                <Col md={6}>
+                    <div className="container">
+                        <ul className="list-group">
+                            <li className="list-group-item list-group-item-primary"><h3>Step 2 : Device Registration</h3></li>
+                            {props.data
+                                ? props.data.Device_Registration.map((d, i) => (
+                                    <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'} key={`${d}-${i}`}>{d}</li>
+                                ))
+                                : "Loading..."}
+
+                        </ul>
+                    </div>
+                </Col>
+                <Col md={6}>
+                    <img src={Image2} alt="Service 2" className="img-fluid mb-3" style={{ width: '100%', height: '174.082px', objectFit: 'cover' }} />
+                </Col>
+            </Row>
+            <Row className="step-row mb-4">
+                <Col md={6}>
+                    <img src={Image3} alt="Service 3" className="img-fluid mb-3" style={{ width: '100%', height: '462.559px', objectFit: 'cover' }} />
+                </Col>
+                <Col md={6}>
+                    <div className="container">
+                        <ul className="list-group">
+                            <li className="list-group-item list-group-item-primary"><h3>Step 3 : Signing</h3></li>
+                            {props.data
+                                ? props.data.Signing.map((d, i) => (
+                                    <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'}key={`${d}-${i}`}>{d}</li>
+                                ))
+                                : "Loading..."}
+
+                        </ul>
+                    </div>
+                </Col>
+            </Row>
+
+            <Row className="step-row mb-4">
+                <Col md={6}>
+                    <div className="container">
+
+                        <ul className="list-group">
+                            <li className="list-group-item list-group-item-primary">   <h3>Step 4 : Authorization</h3></li>
+                            {props.data
+                                ? props.data.Authorization.map((d, i) => (
+                                    <li className={i % 2 === 0 ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-success'} key={`${d}-${i}`}>{d}</li>
+                                ))
+                                : "Loading..."}
+
+                        </ul>
+                    </div>
+                </Col>
+                <Col md={6}>
+                    <img src={Image4} alt="Service 4" className="img-fluid mb-3" style={{ width: '50%', height: '195.156', objectFit: 'cover' }} />
+                </Col>
+            </Row>
+        </Container>
+
+
+
+    );
+};
+//Runing api code
+
+/*import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image1 from '../album/service_image_1.jpeg';
 import Image2 from '../album/service_image_2.jpeg';
@@ -110,7 +204,7 @@ export const SigningStepss = () => {
             </Row>
         </Container>
     );
-};
+};*/
 
 /*import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';

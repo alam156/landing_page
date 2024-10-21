@@ -1,3 +1,50 @@
+import React from "react";
+import '../css/about.css';
+
+export const About = (props) => {
+  return (
+      <div id="about">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-6 mb-4 mb-md-0">
+              <img
+                  src="./img/about.jpg"
+                  className="img-fluid"
+                  alt=""
+              />
+            </div>
+            <div className="col-md-6">
+              <div className="about-text">
+                <h2>About Us</h2>
+                <p align ="justify" >{props.data ? props.data.paragraph : "Loading..."}</p>
+                <h3>Why Choose Us?</h3>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul>
+                      {props.data
+                          ? props.data.Why.map((d, i) => (
+                              <li key={`${d}-${i}`}>{d}</li>
+                          ))
+                          : "Loading..."}
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul>
+                      {props.data
+                          ? props.data.Why2.map((d, i) => (
+                              <li key={`${d}-${i}`}>{d}</li>
+                          ))
+                          : "Loading..."}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  );
+};
 /*import React from "react";
 import '../css/about.css';
 
@@ -45,6 +92,8 @@ export const About = (props) => {
       </div>
   );
 };*/
+////running code api
+/*
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import '../css/about.css';
@@ -97,7 +146,7 @@ export const About = () => {
                 <p >why you should use remote digital signature?</p>
                 <h3>Why Choose Us?</h3>
                 <div className="row">
-                  {/* First div column for about_id 1 */}
+                  {/!* First div column for about_id 1 *!/}
                   <div className="col-sm-6">
                     <ul>
                       {aboutDescriptionData
@@ -108,7 +157,7 @@ export const About = () => {
                     </ul>
                   </div>
 
-                  {/* Second div column for about_id 2 */}
+                  {/!* Second div column for about_id 2 *!/}
                   <div className="col-sm-6">
                     <ul>
                       {aboutDescriptionData
@@ -126,6 +175,7 @@ export const About = () => {
       </div>
   );
 };
+*/
 
 /*import React from "react";
 import '../css/about.css';

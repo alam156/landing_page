@@ -1,4 +1,53 @@
 import React, { useEffect, useState } from 'react';
+import data from '../jsons/data.json'; // Adjust the path based on your project structure
+import '../css/Pricing.css';
+
+const Pricing = () => {
+    const [pricingData, setPricingData] = useState([]);
+
+    useEffect(() => {
+        // Assuming you're fetching the data from a static file
+        setPricingData(data.pricing);
+    }, []);
+
+    const handleButtonClick = (action) => {
+        switch (action) {
+            case 'signup':
+                console.log('Redirecting to signup page...');
+                // Add your redirect logic here
+                break;
+            default:
+                console.log('No action defined for this button.');
+        }
+    };
+
+    return (
+        <React.Fragment>
+            <section className="content-container">
+                {pricingData.map((item, index) => (
+                    <div className="columns" key={index}>
+                        <ul className="price">
+                            <li className="col-header">{item.class}</li>
+                            <li className="grey">{item.price}</li>
+                            {item.features.map((feature, idx) => (
+                                <li key={idx}>{feature}</li>
+                            ))}
+                            <li className="grey">
+                                <button className="button" onClick={() => handleButtonClick(item.button.action)}>
+                                    {item.button.text}
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                ))}
+            </section>
+        </React.Fragment>
+    );
+};
+
+export default Pricing;
+//running code api
+/*import React, { useEffect, useState } from 'react';
 import '../css/Pricing.css';
 
 const Pricing = () => {
@@ -47,7 +96,7 @@ const Pricing = () => {
     );
 };
 
-export default Pricing;
+export default Pricing;*/
 /*import React, { useEffect, useState } from 'react';
 import data from '../jsons/data.json'; // Adjust the path based on your project structure
 import '../css/Pricing.css';

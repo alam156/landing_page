@@ -86,7 +86,7 @@ const FeaturesJumbotron = () => (
                         <Col key={index} md={4} className="mb-4">
                             <div>
                                 <FontAwesomeIcon icon={iconMap[feature.icon]} size="3x" className="text-primary mb-3" />
-                                <h3>{feature.title}</h3>
+                                <h3>{feature.title} </h3>
                                 <p>{feature.description}</p>
                             </div>
                         </Col>

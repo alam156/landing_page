@@ -183,8 +183,8 @@ export const GridIItems = (props) => {
     );
 };
 */
-
-import React, { useState, useEffect } from 'react';
+//running api
+/*import React, { useState, useEffect } from 'react';
 import '../css/GridItems.css';
 
 export const GridIItems = () => {
@@ -239,7 +239,50 @@ export const GridIItems = () => {
             </div>
         </div>
     );
+};*/
+
+import React from 'react';
+import '../css/GridItems.css';
+
+export const GridItems = ({ data }) => {
+    return (
+        <div className="grid-items">
+            <div className="row">
+                {data && data.length > 0 ? (
+                    data.map((d, i) => (
+                        <div className="col-md-4 mb-4" key={`${d.title}-${i}`}>
+                            <div className="grid-item border-top-green">
+                                <div className="row justify-content-center">
+                                    <img
+                                        src={d.icon}
+                                        alt={d.title || "Image"}
+                                        className="img-fluid"
+                                        style={{ width: '100px', height: '100px' }}
+                                        onError={(e) => {
+                                            e.target.onerror = null;
+                                            e.target.src = 'path/to/default/image.jpg';
+                                        }}
+                                    />
+                                </div>
+                                <div>
+                                    <h4 className="grid-title" style={{ minHeight: '50px' }}>
+                                        {d.title || "Untitled"}
+                                    </h4>
+                                    <p align={"justify"} className="grid-description" style={{ minHeight: '70px' }}>
+                                        {d.description || "No description available."}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                ) : (
+                    <div className="col-12">Loading...</div>
+                )}
+            </div>
+        </div>
+    );
 };
+
 
 /*import React from 'react';
 import '../css/GridItems.css';
