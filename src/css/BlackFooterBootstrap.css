@@ -1,3 +1,9 @@
+.footer {
+    background: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .footer-header {
     font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
@@ -6,3 +12,29 @@
     color: #5ca9fb;
 }
 
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin-top: 0.5rem;
+}
+
+footer .mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
+
+
+.footer a,
+.footer a:visited {
+    color: #00bfff !important;
+    text-decoration: none !important;
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: #1e90ff !important;
+    text-decoration: underline;
+}

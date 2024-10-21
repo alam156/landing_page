@@ -1,3 +1,105 @@
+/*import React, { useEffect, useState } from 'react';
+import { Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCube, faAward, faMobileAlt, faSquare, faBaseball, faCloudSun, faSearch, faBasketball, faBarcode } from '@fortawesome/free-solid-svg-icons';
+import axios from 'axios';
+
+const iconMap = {
+    faCube: faCube,
+    faAward: faAward,
+    faMobileAlt: faMobileAlt,
+    faSquare: faSquare,
+    faBaseball: faBaseball,
+    faCloudSun: faCloudSun,
+    faSearch: faSearch,
+    faBasketball: faBasketball,
+    faBarcode: faBarcode,
+};
+
+const FeaturesJumbotron = () => {
+    const [features, setFeatures] = useState([]);
+
+    useEffect(() => {
+        const fetchFeatures = async () => {
+            try {
+                const response = await axios.get('http://localhost:8080/api/characteristics_features/all');
+                setFeatures(response.data);
+            } catch (error) {
+                console.error('Error fetching the features:', error);
+            }
+        };
+
+        fetchFeatures();
+    }, []);
+
+    return (
+        <Row>
+            <Col md={1}></Col>
+            <Col md={10}>
+                <div className="jumbotron">
+                    <Row>
+                        {features.map((feature, index) => (
+                            <Col key={index} md={4} className="mb-4">
+                                <div>
+                                    <FontAwesomeIcon icon={iconMap[feature.icon]} size="3x" className="text-primary mb-3" />
+                                    <h3>{feature.title}</h3>
+                                    <p>{feature.description}</p>
+                                </div>
+                            </Col>
+                        ))}
+                    </Row>
+                </div>
+            </Col>
+            <Col md={1}></Col>
+        </Row>
+    );
+};
+
+export default FeaturesJumbotron;*/
+
+
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCube, faAward, faMobileAlt, faSquare, faBaseball, faCloudSun, faSearch, faBasketball, faBarcode } from '@fortawesome/free-solid-svg-icons';
+import featureData from '../jsons/data.json';
+
+const iconMap = {
+    faCube: faCube,
+    faAward: faAward,
+    faMobileAlt: faMobileAlt,
+    faSquare: faSquare,
+    faBaseball: faBaseball,
+    faCloudSun: faCloudSun,
+    faSearch: faSearch,
+    faBarcode: faBarcode,
+    faBasketball: faBasketball
+};
+
+const FeaturesJumbotron = () => (
+    <Row>
+        <Col md={1}></Col>
+        <Col md={10}>
+            <div className="jumbotron">
+                <Row>
+                    {featureData.Characteristics_features.map((feature, index) => (
+                        <Col key={index} md={4} className="mb-4">
+                            <div>
+                                <FontAwesomeIcon icon={iconMap[feature.icon]} size="3x" className="text-primary mb-3" />
+                                <h3>{feature.title}</h3>
+                                <p>{feature.description}</p>
+                            </div>
+                        </Col>
+                    ))}
+                </Row>
+            </div>
+        </Col>
+        <Col md={1}></Col>
+    </Row>
+);
+
+export default FeaturesJumbotron;
+/*
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,8 +112,8 @@ const FeaturesJumbotron = () => (
         </Col>
         <Col md={10}>
             <div className="jumbotron">
-                {/*<h1>Features</h1>
-                <p>Our product has the following features:</p>*/}
+                {/!*<h1>Features</h1>
+                <p>Our product has the following features:</p>*!/}
                 <Row>
                     <Col md={4}>
                         <div>
@@ -99,4 +201,5 @@ const FeaturesJumbotron = () => (
 
 );
 
-export default FeaturesJumbotron;
+export default FeaturesJumbotron;*/
+

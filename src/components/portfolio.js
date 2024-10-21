@@ -20,6 +20,8 @@ import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
+import {Container} from "react-bootstrap";
+import Accordion from "react-bootstrap/Accordion";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -78,9 +80,9 @@ const Portfolio = () => {
     return (
         <div>
             <div className="container">
-                <NavBar />
+                <NavBar/>
             </div>
-            <Header data={landingPageData['Header']} />
+            <Header data={landingPageData['Header']}/>
             <div className="container grid-container">
                 <h2 className="mt-4 mb-4">Why Customer choose us?</h2>
             </div>
@@ -91,7 +93,7 @@ const Portfolio = () => {
 
                         </div>
                         <div className="col-md-10">
-                            <GridIItems  data={landingPageData['GridIItems']}/>
+                            <GridIItems data={landingPageData['GridIItems']}/>
                         </div>
                         <div className="col-md-1">
 
@@ -102,7 +104,7 @@ const Portfolio = () => {
                 </div>
 
             </div>
-            <Features data={landingPageData['Features']} />
+            <Features data={landingPageData['Features']}/>
             <div>
                 <div className="container">
                     <div className="row">
@@ -110,7 +112,7 @@ const Portfolio = () => {
 
                         </div>
                         <div className="col-md-10">
-                            <About data={landingPageData['About']} />
+                            <About data={landingPageData['About']}/>
                         </div>
                         <div className="col-md-1">
 
@@ -121,7 +123,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div>
-                <Services data={landingPageData['Services']} />
+                <Services data={landingPageData['Services']}/>
 
             </div>
 
@@ -139,7 +141,8 @@ const Portfolio = () => {
                         </div>
                         <div className="ratio ratio-16x9">
                             <iframe width="640" height="360" src="https://www.youtube.com/embed/bhEvK-18PbQ"
-                                    title="Make Your Signature Digital with Photoshop | Photoshop Tutorial" frameBorder="0"
+                                    title="Make Your Signature Digital with Photoshop | Photoshop Tutorial"
+                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                             {/*<iframe src="https://www.youtube.com/embed/zpOULjyy-n8" title="Youtube Video"*/}
@@ -177,7 +180,7 @@ const Portfolio = () => {
                     <h2>QuickSign Signing Steps</h2>
                 </div>
 
-                 <SigningStepss data={landingPageData['SigningStepss']} />
+                <SigningStepss data={landingPageData['SigningStepss']}/>
 
 
             </div>
@@ -200,7 +203,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <div>
-                <Testimonials data={landingPageData['Testimonials']} />
+                <Testimonials data={landingPageData['Testimonials']}/>
             </div>
             <div>
                 <AccordionFAQ data={landingPageData['Faq']}/>
@@ -212,11 +215,26 @@ const Portfolio = () => {
                 <GridCarousel></GridCarousel>
             </div>
             <div className="section-title text-center">
-                <h2>Our Brands</h2>
+                <h2>Payment Methods</h2>
             </div>
-            <div>
+            <div className="row">
+                <Container className="car-logos" style={{ marginBottom: '20px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', padding: '10px' }}>
+                        <img
+                            style={{
+                                maxWidth: '80%', // Limit the image width to 80% of its container
+                                height: 'auto', // Maintain aspect ratio
+                            }}
+                            alt="SSL Commerz Logo"
+                            src="./img/SSLCommerz.jpg"
+                        />
+                    </div>
+                </Container>
+
+            </div>
+            {/*<div>
                 <CarLogos />
-            </div>
+            </div>*/}
             <BlackFooterBootstrap/>
             {/*<BlackFooter/>*/}
             <Footer/>

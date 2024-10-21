@@ -1,5 +1,26 @@
+
+.footer-bg {
+    background-color: #3a3939;
+    padding: 10px 0;
+}
+
 .footer-copyright {
     font-family: 'Arial', sans-serif;
     font-size: 0.9rem;
     color: #aaa;
+    margin-bottom: 5px;
+}
+
+.footer-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.text-light {
+    color: #ffffff !important;
 }

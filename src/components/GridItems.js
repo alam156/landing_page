@@ -1,10 +1,10 @@
-import React from 'react';
+/*import React from 'react';
 import '../css/GridItems.css';
 //import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 export const GridIItems = (props) => {
-    /*const gridItems = [
+    /!*const gridItems = [
         {
             icon: './icons/icon1.png',
             title: 'Local Certificate & Signing',
@@ -54,10 +54,10 @@ export const GridIItems = (props) => {
             description: <p align={"justify"}>Timestamping can be used to independently and irrefutably prove the time of a transaction,
                 the time a document was signed and when it was archived. BCC provides timestamping as an API service.</p>
         }
-    ];*/
+    ];*!/
 
 
-    /* return (
+    /!* return (
         <div className="grid-items">
             <div className="row">
                 {gridItems.map((item, index) => (
@@ -84,7 +84,7 @@ export const GridIItems = (props) => {
                 ))}
             </div>
         </div>
-        /*<div className="grid-items">
+        /!*<div className="grid-items">
             <div className="row">
                 {gridItems.map((item, index) => (
                     <div className="col-md-4 mb-4" key={index}>
@@ -109,7 +109,7 @@ export const GridIItems = (props) => {
             </div>
         </div>///akhane break
     );
-};*/
+};*!/
 
 
 
@@ -142,5 +142,137 @@ export const GridIItems = (props) => {
         </div>
 
 );
-};
+};*/
 //export default GridItems;
+
+import axios from "axios";
+/*
+import React from 'react';
+import '../css/GridItems.css';
+//import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+export const GridIItems = (props) => {
+    return (
+
+        <div className="grid-items">
+            <div className="row">
+                {props.data ? props.data.map((d, i) =>  (
+                    <div className="col-md-4 mb-4" key={`${d.title}-${i}`}>
+                        <div className="grid-item border-top-green">
+                            <div className="row justify-content-center">
+                                <img
+                                    src={`http://localhost:8080/items/image/1727775170659_icon1.png`} // Use the correct URL for images
+                                    alt={d.title} // Set a meaningful alt text
+                                    className="img-fluid"
+                                    style={{ width: '100px', height: '100px' }} // Fixed size for the image
+                                />
+                            </div>
+                            <div>
+                                <h4 className="grid-title" style={{ minHeight: '50px' }}>
+                                    {d.title}
+                                </h4>
+                                <p align={"justify"} className="grid-description" style={{ minHeight: '70px' }}>
+                                    {d.description}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                )) : ("loading...")}
+            </div>
+        </div>
+    );
+};
+*/
+
+import React, { useState, useEffect } from 'react';
+import '../css/GridItems.css';
+
+export const GridIItems = () => {
+    // State to hold the data fetched from the backend
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);  // Add loading state
+
+    useEffect(() => {
+        fetch('http://localhost:8080/items/all')
+            .then(response => response.json())
+            .then(data => {
+                setData(data);
+                setLoading(false);  // Set loading to false when data is fetched
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                setLoading(false);  // Set loading to false in case of error
+            });
+    }, []);
+
+    return (
+        <div className="grid-items">
+            <div className="row">
+                {loading ? (
+                    <p>Loading...</p>  // Show loading text while fetching data
+                ) : (
+                    data.length > 0 ? data.map((d, i) => (
+                        <div className="col-md-4 mb-4" key={d.id}>
+                            <div className="grid-item border-top-green">
+                                <div className="row justify-content-center">
+                                    <img
+                                        src={`http://localhost:8080/items/image/${d.icon}`}  // Use dynamic icon URL from the API
+                                        alt={d.name}
+                                        className="img-fluid"
+                                        style={{ width: '100px', height: '100px' }}
+                                    />
+                                </div>
+                                <div>
+                                    <h4 className="grid-title" style={{ minHeight: '50px' }}>
+                                        {d.name}
+                                    </h4>
+                                    <p align="justify" className="grid-description" style={{ minHeight: '70px' }}>
+                                        {d.text}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    )) : (
+                        <p>No data available</p>
+                    )
+                )}
+            </div>
+        </div>
+    );
+};
+
+/*import React from 'react';
+import '../css/GridItems.css';
+
+export const GridIItems = (props) => {
+    return (
+        <div className="grid-items">
+            <div className="row">
+                {props.data && props.data.length > 0 ? props.data.map((d, i) =>  (
+                    <div className="col-md-4 mb-4" key={`${d.id}-${i}`}>
+                        <div className="grid-item border-top-green">
+                            <div className="row justify-content-center">
+                                <img
+                                    src={`http://localhost:8080/items/${d.id}/image`} // Use the item's ID to fetch the image
+                                    alt={d.name} // Set a meaningful alt text
+                                    className="img-fluid"
+                                    style={{ width: '100px', height: '100px' }} // Fixed size for the image
+                                />
+                            </div>
+                            <div>
+                                <h4 className="grid-title" style={{ minHeight: '50px' }}>
+                                    {d.name || "Untitled"} {/!* Fallback if name is not available *!/}
+                                </h4>
+                                <p align={"justify"} className="grid-description" style={{ minHeight: '70px' }}>
+                                    {d.text || "No description available."} {/!* Fallback if text is not available *!/}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                )) : (
+                    <div className="col-12">Loading...</div>
+                )}
+            </div>
+        </div>
+    );
+};*/

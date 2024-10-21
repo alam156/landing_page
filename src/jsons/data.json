@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Quicksign Landing Page",
+    "title": "Quicksign Landing Page check",
     "paragraph": "Quicksign streamlines document signing processes with its secure, user-friendly, and efficient remote digital signing platform."
   },
   "GridIItems": [
@@ -35,7 +35,7 @@
     "Registration": [
 
       "Download QuickPass app from android app store in mobile",
-      "Click Create New Account in QuickPass app.",
+      "Click Create New Account in QuickPass app",
       "Tick the privacy policy checkbox and click 'Start’",
       "Enter mobile number and click 'Send OTP'",
       "Submit the OTP sent to your mobile",
@@ -130,45 +130,103 @@
       "smallImage": "../public/img/portfolio/09-small.jpg"
     }
   ],
-  "pricing": {
-    "title": "Pricing",
-    "items": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
 
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+
+  "pricing": [
+    {
+      "class": "Class 0",
+      "price": "Free",
+      "features": [
+        "IDENTIFICATION",
+        "EMAIL",
+        "ENCRYPTION",
+        "CODE SIGNING",
+        "SSL SERVER AUTHENTICATION",
+        "SSL CLIENT AUTHENTICATION"
+      ],
+      "button": {
+        "text": "Sign Up",
+        "action": "signup"
       }
-    ]
-  },
+    },
+    {
+      "class": "Class 2",
+      "price": "BDT 500.00 - BDT 3,000.00/year",
+      "features": [
+        "IDENTIFICATION",
+        "EMAIL",
+        "SSL CLIENT AUTHENTICATION"
+      ],
+      "button": {
+        "text": "Sign Up",
+        "action": "signup"
+      }
+    },
+    {
+      "class": "Class 3",
+      "price": "BDT 3,000.00 - BDT 25,000.00/year",
+      "features": [
+        "IDENTIFICATION",
+        "EMAIL",
+        "ENCRYPTION",
+        "CODE SIGNING",
+        "SSL SERVER AUTHENTICATION",
+        "SSL CLIENT AUTHENTICATION"
+      ],
+      "button": {
+        "text": "Sign Up",
+        "action": "signup"
+      }
+    }
+  ],
+
+  "Characteristics_features": [
+    {
+      "icon": "faCube",
+      "title": "Customizable",
+      "description": "Our product is highly customizable to meet your specific needs."
+    },
+    {
+      "icon": "faAward",
+      "title": "Cloud-based",
+      "description": "Our product is cloud-based, which means you can access it from anywhere."
+    },
+    {
+      "icon": "faMobileAlt",
+      "title": "Mobile-friendly",
+      "description": "Our product is mobile-friendly, which means you can use it on any device."
+    },
+    {
+      "icon": "faSquare",
+      "title": "Secured",
+      "description": "Our product is highly secured to meet security."
+    },
+    {
+      "icon": "faBaseball",
+      "title": "Non-Repudiation",
+      "description": "Our product is non-repudiative."
+    },
+    {
+      "icon": "faCloudSun",
+      "title": "Optimized",
+      "description": "Our product is more optimized."
+    },
+    {
+      "icon": "faSearch",
+      "title": "2FA",
+      "description": "Our product follows two-factor authentication."
+    },
+    {
+      "icon": "faBarcode",
+      "title": "e-KYC",
+      "description": "We follow eKYC-based face recognition while registering."
+    },
+    {
+      "icon": "faBasketball",
+      "title": "Economical",
+      "description": "The cost of signing is more economical."
+    }
+  ],
   "Services": [
     {
       "icon": "icon1",
@@ -266,7 +324,7 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Secure Authentication",
+      "title": "test Secure Authentication",
       "text": "Digital signatures use strong encryption techniques to verify the identity of signatories and ensure that only authorized users can sign documents."
     },
     {
@@ -333,7 +391,7 @@
         "answer": "E-signature solutions often include features such as audit trails, authentication, and encryption to ensure the integrity and security of signed documents. These features help prevent fraud and unauthorized access."
       },
       {
-        "question": "What are the environmental benefits of e-signatures?",
+        "question": "What are the environmental benefits of e-signatures?sfdfsfd",
         "answer": "E-signatures offer environmental benefits by reducing paper waste and contributing to sustainability efforts. They also help reduce carbon emissions associated with printing, mailing, and storing physical documents."
       }
   ]
