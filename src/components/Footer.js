@@ -118,8 +118,8 @@ const Footer = () => {
                     <Col>
                         <span className="footer-copyright">2024 © Bangladesh Computer Council.</span>
                         <br />
-                        <a href="#" className="footer-link">Privacy Policy</a> |
-                        <a href="#" className="footer-link">Terms of Service</a>
+                        <a href="https://www.bcc-ca.gov.bd/" className="footer-link">Privacy Policy</a> |
+                        <a href="https://www.bcc-ca.gov.bd/" className="footer-link">Terms of Service</a>
                     </Col>
                 </Row>
             </Container>
