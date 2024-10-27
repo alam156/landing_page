@@ -1,4 +1,4 @@
-/*import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCube, faAward, faMobileAlt, faSquare, faBaseball, faCloudSun, faSearch, faBasketball, faBarcode } from '@fortawesome/free-solid-svg-icons';
@@ -55,10 +55,10 @@ const FeaturesJumbotron = () => {
     );
 };
 
-export default FeaturesJumbotron;*/
+export default FeaturesJumbotron;
 
-
-import React from 'react';
+///json data code
+/*import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCube, faAward, faMobileAlt, faSquare, faBaseball, faCloudSun, faSearch, faBasketball, faBarcode } from '@fortawesome/free-solid-svg-icons';
@@ -98,7 +98,7 @@ const FeaturesJumbotron = () => (
     </Row>
 );
 
-export default FeaturesJumbotron;
+export default FeaturesJumbotron;*/
 /*
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
