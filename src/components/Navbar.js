@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '../css/NavBar.css'
-import Logo from  '../album/logo.png'
+//import Logo from  '../album/logo.png'
 import Clock from "react-live-clock";
 
 

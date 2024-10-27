@@ -5,7 +5,6 @@ const BlackFooterBootstrap = () => {
     return (
         <footer className="bg-dark text-white py-2 footer">
             <div className="container">
-                <h2 className="footer-header"></h2> {/* Optional Header */}
                 <div className="row mt-4">
                     <div className="col-md-3 mb-2">
                         <h5 className="text-uppercase">Contact Info</h5>

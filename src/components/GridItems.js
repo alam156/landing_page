@@ -145,7 +145,7 @@ export const GridIItems = (props) => {
 };*/
 //export default GridItems;
 
-import axios from "axios";
+//import axios from "axios";
 /*
 import React from 'react';
 import '../css/GridItems.css';

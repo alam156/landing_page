@@ -12,16 +12,16 @@ import Footer from "./Footer";
 import NavBar from "./Navbar";
 //import AccordionFAQ from "../AccordionFAQ";
 import { SigningStepss } from "./SigningSteps";
-import CarLogos from "./CarLogos";
+//import CarLogos from "./CarLogos";
 import FeaturesJumbotron from "./FeaturesJumbotron";
-import {GridIItems, GridItems} from "./GridItems";
+import {GridItems} from "./GridItems";
 import GridCarousel from "./GridCarousel";
 import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
 import {Container} from "react-bootstrap";
-import Accordion from "react-bootstrap/Accordion";
+//import Accordion from "react-bootstrap/Accordion";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,

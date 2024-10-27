@@ -62,7 +62,7 @@ const Footer = () => {
 };
 
 export default Footer;*/
-import React from 'react';
+/*import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import "../css/Footer.css";
 
@@ -74,8 +74,9 @@ const Footer = () => {
                     <Col>
                         <span className="footer-copyright">2024 © Bangladesh Computer Council.</span>
                         <br />
-                        <a href="javascript:;" className="footer-link">Privacy Policy</a> |
-                        <a href="javascript:;" className="footer-link">Terms of Service</a>
+                        <a href="#" className="footer-link">Privacy Policy</a> |
+                        <a href="#" className="footer-link">Terms of Service</a>
+
                     </Col>
                 </Row>
             </Container>
@@ -83,7 +84,73 @@ const Footer = () => {
     );
 };
 
+export default Footer;*/
+import React, { useEffect, useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import "../css/Footer.css";
+
+const Footer = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const handleScroll = () => {
+        if (window.scrollY > 200) { // Show button after scrolling 200px down
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll); // Cleanup listener
+        };
+    }, []);
+
+    return (
+        <footer className="footer-bg text-light">
+            <Container>
+                <Row className="text-center">
+                    <Col>
+                        <span className="footer-copyright">2024 © Bangladesh Computer Council.</span>
+                        <br />
+                        <a href="#" className="footer-link">Privacy Policy</a> |
+                        <a href="#" className="footer-link">Terms of Service</a>
+                    </Col>
+                </Row>
+            </Container>
+            {isVisible && ( // Render the button only if isVisible is true
+                <div
+                    id="topcontrol"
+                    title="Scroll Back to Top"
+                    style={{
+                        position: 'fixed',
+                        bottom: '10px',
+                        right: '10px',
+                        opacity: '1',
+                        cursor: 'pointer'
+                    }}
+                    onClick={scrollToTop}
+                >
+                    <img
+                        src="../up.png"
+                        alt="Back to top"
+                        style={{ width: '40px', height: '40px' }}
+                    />
+                </div>
+            )}
+        </footer>
+    );
+};
+
 export default Footer;
+
+
+
 
 
 
