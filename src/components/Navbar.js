@@ -68,7 +68,7 @@ const Navbar = () => {
                                                 QuickSign</Link></li>
                                             <li className="small-text"><Link className="dropdown-item" to="/service2">About
                                                 BCC</Link></li>
-                                            <li className="small-text"><Link className="dropdown-item" to="/ed-message">ED's
+                                            <li className="small-text"><Link className="dropdown-item" to="/ed's-message">ED's
                                                 Message</Link></li>
                                         </div>
                                         <div className="col-md-3">
