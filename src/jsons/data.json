@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Quicksign Landing Page check",
+    "title": "Quicksign Landing Page ",
     "paragraph": "Quicksign streamlines document signing processes with its secure, user-friendly, and efficient remote digital signing platform."
   },
   "GridItems": [
@@ -324,7 +324,7 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "test Secure Authentication",
+      "title": "Secure Authentication",
       "text": "Digital signatures use strong encryption techniques to verify the identity of signatories and ensure that only authorized users can sign documents."
     },
     {
