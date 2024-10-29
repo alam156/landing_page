@@ -15,9 +15,12 @@ export const About = (props) => {
             </div>
             <div className="col-md-6">
               <div className="about-text">
-                <h2>About Us</h2>
-                <p align ="justify" >{props.data ? props.data.paragraph : "Loading..."}</p>
-                <h3>Why Choose Us?</h3>
+                <h2>About Quicksign</h2>
+            {/*    <p align ="justify" >{props.data ? props.data.paragraph : "Loading..."}</p>*/}
+                <p align="justify">Quicksign is a digital certificate solution of BCC CA for government use, ensuring authenticated transactions and document integrity.
+                  It verifies identities to prevent unauthorized access and provides non-repudiation as legal proof of the signer.
+                  With features like time stamping and audit trails, Quicksign enhances compliance, traceability, and promotes efficient, paperless workflows.</p>
+                <h3>Why choose QuickSign?</h3>
                 <div className="row">
                   <div className="col-sm-6">
                     <ul>
