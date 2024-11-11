@@ -21,6 +21,7 @@ import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
 import {Container} from "react-bootstrap";
+import SigningStepsCard from "./SigningStepsCard.js";
 //import Accordion from "react-bootstrap/Accordion";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -30,49 +31,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const Portfolio = () => {
     const [landingPageData, setLandingPageData] = useState({});
-    /*const plans = [
-        {
-            price: 'Free',
-            title: 'Class 0',
-            features: [
-                'IDENTIFICATION',
-                'EMAIL',
-                'ENCRYPTION',
-                'CODE SIGNING',
-                'SSL SERVER AUTHENTICATION',
-                'SSL CLIENT AUTHENTICATION'
-            ],
-        },
-        {
-            price: 'BDT 500.00 - BDT 2,000.00/year',
-            title: 'Class 1',
-            features: [
-                'IDENTIFICATION',
-                'EMAIL'
-            ],
-        },
-        {
-            price: 'BDT 500.00 - BDT 3,000.00/year',
-            title: 'Class 2',
-            features: [
-                'IDENTIFICATION',
-                'EMAIL',
-                'SSL CLIENT AUTHENTICATION'
-            ],
-        },
-        {
-            price: 'BDT 3,000.00 - BDT 25,000.00/year',
-            title: 'Class 3',
-            features: [
-                'IDENTIFICATION',
-                'EMAIL',
-                'ENCRYPTION',
-                'CODE SIGNING',
-                'SSL SERVER AUTHENTICATION',
-                'SSL CLIENT AUTHENTICATION'
-            ],
-        }
-    ];*/
     useEffect(() => {
         setLandingPageData(JsonData);
     }, []);
@@ -83,48 +41,57 @@ const Portfolio = () => {
                 <NavBar/>
             </div>
             <Header data={landingPageData['Header']}/>
-            <div className="container grid-container">
-                <h2 className="mt-4 mb-4">Why Customer choose us?</h2>
-            </div>
-            <div className='row mb-5'>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-1">
+            {/*<div className="container grid-container">*/}
+            {/*    <h2 className="mt-4 mb-4">Why Customer choose us?</h2>*/}
+            {/*</div>*/}
+            {/*<div className='row mb-5'>*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row">*/}
+            {/*            <div className="col-md-1">*/}
 
-                        </div>
-                        <div className="col-md-10">
-                            <GridItems data={landingPageData['GridItems']}/>
-                        </div>
-                        <div className="col-md-1">
+            {/*            </div>*/}
+            {/*            <div className="col-md-10">*/}
+            {/*                <GridItems data={landingPageData['GridItems']}/>*/}
+            {/*            </div>*/}
+            {/*            <div className="col-md-1">*/}
 
-                        </div>
+            {/*            </div>*/}
 
-                    </div>
+            {/*        </div>*/}
 
+            {/*    </div>*/}
+
+            {/*</div>*/}
+            <div>
+                <div className="section-title text-center">
+                    <h2>QuickSign Signing Steps</h2>
                 </div>
+
+                {/*<SigningStepss data={landingPageData['SigningStepss']}/>*/}
+                <SigningStepsCard></SigningStepsCard>
+
 
             </div>
             <Features data={landingPageData['Features']}/>
-            <div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-1">
+            {/*<div>*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row">*/}
+            {/*            <div className="col-md-1">*/}
 
-                        </div>
-                        <div className="col-md-10">
-                            <About data={landingPageData['About']}/>
-                        </div>
-                        <div className="col-md-1">
+            {/*            </div>*/}
+            {/*            <div className="col-md-10">*/}
+            {/*                <About data={landingPageData['About']}/>*/}
+            {/*            </div>*/}
+            {/*            <div className="col-md-1">*/}
 
-                        </div>
+            {/*            </div>*/}
 
-                    </div>
+            {/*        </div>*/}
 
-                </div>
-            </div>
+            {/*    </div>*/}
+            {/*</div>*/}
             <div>
                 <Services data={landingPageData['Services']}/>
-
             </div>
 
             {/*<Gallery data={landingPageData['Gallery']} />*/}
@@ -176,62 +143,37 @@ const Portfolio = () => {
 
             </div>
             <div>
-                <div className="section-title text-center">
-                    <h2>QuickSign Signing Steps</h2>
-                </div>
-
-                <SigningStepss data={landingPageData['SigningStepss']}/>
-
-
+                <AccordionFAQ data={landingPageData['Faq']}/>
             </div>
-            {/*<div>
-                <Flowchart/>
-            </div>*/}
             <div>
                 <div className="section-title text-center">
                     <h2>QuickSign App Pricing</h2>
                 </div>
                 <div className="container mt-5">
-                    {/*<Row>
-                            {plans.map((plan, index) => (
-                                <Col sm="3" key={index}>
-                                    <PricingCard {...plan} />
-                                </Col>
-                            ))}
-                        </Row>*/}
                     <Pricing></Pricing>
                 </div>
             </div>
-            <div>
-                <Testimonials data={landingPageData['Testimonials']}/>
-            </div>
-            <div>
-                <AccordionFAQ data={landingPageData['Faq']}/>
-            </div>
-            <div>
-                <div className="section-title text-center">
-                    <h2>Our Sponsors</h2>
-                </div>
-                <GridCarousel></GridCarousel>
-            </div>
-            <div className="section-title text-center">
-                <h2>Payment Methods</h2>
-            </div>
-            <div className="row">
-                <Container className="car-logos" style={{ marginBottom: '20px' }}>
-                    <div style={{ display: 'flex', justifyContent: 'center', padding: '10px' }}>
-                        <img
-                            style={{
-                                maxWidth: '80%', // Limit the image width to 80% of its container
-                                height: 'auto', // Maintain aspect ratio
-                            }}
-                            alt="SSL Commerz Logo"
-                            src="./img/SSLCommerz.jpg"
-                        />
-                    </div>
-                </Container>
 
-            </div>
+            {/*<div>
+                <Flowchart/>
+            </div>*/}
+            {/*<div>*/}
+
+            {/*</div>*/}
+            {/*<div>*/}
+            {/*    <Testimonials data={landingPageData['Testimonials']}/>*/}
+            {/*</div>*/}
+
+            {/*<div>*/}
+            {/*    <div className="section-title text-center">*/}
+            {/*        <h2>Our Sponsors</h2>*/}
+            {/*    </div>*/}
+            {/*    <GridCarousel></GridCarousel>*/}
+            {/*</div>*/}
+            {/*<div className="section-title text-center">*/}
+            {/*     <h2>Payment Methods</h2>*/}
+            {/* </div>*/}
+
             {/*<div>
                 <CarLogos />
             </div>*/}
@@ -243,5 +185,4 @@ const Portfolio = () => {
         </div>
     );
 };
-
 export default Portfolio;

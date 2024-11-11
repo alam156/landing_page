@@ -83,6 +83,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import React from "react";
 
 const AccordionFAQ = (props) => {
+    console.log(props.data)
     return (
         <div>
             {/*<div className="navbar-fixed">
