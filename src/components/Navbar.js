@@ -9,7 +9,7 @@ import Clock from "react-live-clock";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+        <nav className="navbar navbar-expand-lg navbar-light bg-primary fixed-top" >
        {/*<nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">*/}
             <div className="container">
 
