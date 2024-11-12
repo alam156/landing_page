@@ -62,14 +62,21 @@ const Portfolio = () => {
             {/*    </div>*/}
 
             {/*</div>*/}
-            <div>
-                <div className="section-title text-center">
-                    <h2>QuickSign Signing Steps</h2>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-2">
+
+                    </div>
+                    <div className="col-md-8">
+                        <div className="section-title text-center">
+                            <h2>QuickSign Signing Steps</h2>
+                        </div>
+                        <SigningStepsCard></SigningStepsCard>
+                    </div>
+                    <div className="col-md-2">
+
+                    </div>
                 </div>
-
-                {/*<SigningStepss data={landingPageData['SigningStepss']}/>*/}
-                <SigningStepsCard></SigningStepsCard>
-
 
             </div>
             <Features data={landingPageData['Features']}/>

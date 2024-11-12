@@ -19,30 +19,29 @@ const Navbar = () => {
                     className="img-fluid"
                     style={{ width: '80px', height: '50px' }}
                 /></Link>*/}
-                <div className="site-logo" style={{display: 'flex', alignItems: 'center'}}>
-                    <div style={{flex: '0 0 auto', textAlign: 'center', marginRight: '10px'}}>
-                        <a href="/" style={{textDecoration: 'none'}}>
-                            <img
-                                style={{
-                                    height: '50px',
-                                    /*backgroundColor: 'transparent'*/
-                                    backgroundColor: 'transparent'
-                                }}  /* Ensures transparent background */
-                                src="./img/bcc_logo.png"
-                                alt="BCC-CA Logo"
-                            />
-                        </a>
-                    </div>
-                    <div style={{flex: '1', paddingLeft: '10px'}}>
-        <span style={{fontSize: '13px', fontWeight: 'bold', color: '#e94d1c'}}>
-            Bangladesh Computer Council
-        </span>
-                        <br/>
-                        <span style={{fontSize: '13px', color: '#1b6f4c'}}>
-            Certifying Authority (BCC-CA)
-        </span>
-                    </div>
-                </div>
+                {/*<div className="site-logo" style={{display: 'flex', alignItems: 'center'}}>*/}
+                {/*    <div style={{flex: '0 0 auto', textAlign: 'center', marginRight: '10px'}}>*/}
+                {/*        <a href="/" style={{textDecoration: 'none'}}>*/}
+                {/*            <img*/}
+                {/*                style={{*/}
+                {/*                    height: '50px',*/}
+                {/*                    backgroundColor: 'transparent'*/}
+                {/*                }}*/}
+                {/*                src="./img/bcc_logo.png"*/}
+                {/*                alt="BCC-CA Logo"*/}
+                {/*            />*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*    <div style={{flex: '1', paddingLeft: '10px'}}>*/}
+                {/*        <span style={{fontSize: '13px', fontWeight: 'bold', color: '#e94d1c'}}>*/}
+                {/*            Bangladesh Computer Council*/}
+                {/*        </span>*/}
+                {/*        <br/>*/}
+                {/*        <span style={{fontSize: '13px', color: '#1b6f4c'}}>*/}
+                {/*            Certifying Authority (BCC-CA)*/}
+                {/*        </span>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -50,7 +49,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav ms-auto " >
                         <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle" to="#" id="servicesDropdown" role="button"
