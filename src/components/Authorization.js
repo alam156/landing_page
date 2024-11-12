@@ -5,7 +5,6 @@ import '../css/style.css'
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
-import {SigningStepss} from "./SigningSteps.js";
 import JsonData from "../jsons/data.json";
 import {SigningStepsAuthorization} from "./SigningStepsAuthorization.js";
 

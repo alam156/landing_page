@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Header } from "./header";
-import { About } from "./about";
 import { Services } from "./services";
-import { Testimonials } from "./testimonials";
 import JsonData from "../jsons/data.json";
 import SmoothScroll from "smooth-scroll";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,16 +9,11 @@ import '../css/style.css'
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 //import AccordionFAQ from "../AccordionFAQ";
-import { SigningStepss } from "./SigningSteps";
 //import CarLogos from "./CarLogos";
 import FeaturesJumbotron from "./FeaturesJumbotron";
-import {GridItems} from "./GridItems";
-import GridCarousel from "./GridCarousel";
-import Pricing from "./Pricing";
 import AccordionFAQ from "./AccordionFAQ";
 import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
-import {Container} from "react-bootstrap";
 import SigningStepsCard from "./SigningStepsCard.js";
 import PricingTable from "./PricingTable.js";
 //import Accordion from "react-bootstrap/Accordion";
