@@ -41,6 +41,8 @@ const Portfolio = () => {
             <div className="container">
                 <NavBar/>
             </div>
+            <br/>
+            <br/>
             <Header data={landingPageData['Header']}/>
             {/*<div className="container grid-container">*/}
             {/*    <h2 className="mt-4 mb-4">Why Customer choose us?</h2>*/}

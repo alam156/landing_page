@@ -24,7 +24,7 @@ const SigningStepsCard = () => {
         <div className="card-grid">
             {cards.map((card) => (
                 <div className="card" key={card.id}>
-                    <img src={card.image} alt={card.title} className="card-image" />
+                    <a href={card.link}><img src={card.image} alt={card.title} className="card-image" /></a>
                     <h2 className="card-title" style={{ color: "darkblue" }}>{card.title}</h2>
                     <p className="card-description">{card.description}</p>
                     <a href={card.link} className="card-button">Read More</a>
