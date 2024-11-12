@@ -16,14 +16,14 @@ export const Header = (props) => {
               </div>
               <div className="col-md-6 intro-text">
 
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                {/*<h1>*/}
+                {/*  {props.data ? props.data.title : "Loading"}*/}
+                {/*  <span></span>*/}
+                {/*</h1>*/}
+                <h2 style={{color: "floralwhite"}}>{props.data ? props.data.paragraph : "Loading"}</h2>
 
                 <a
-                  href="#features"
+                  href="http://quicksign.bcc-ca.gov.bd"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More

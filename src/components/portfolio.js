@@ -22,6 +22,7 @@ import {Features} from "./features";
 import BlackFooterBootstrap from "./BlackFooterBootstrap";
 import {Container} from "react-bootstrap";
 import SigningStepsCard from "./SigningStepsCard.js";
+import PricingTable from "./PricingTable.js";
 //import Accordion from "react-bootstrap/Accordion";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -157,7 +158,8 @@ const Portfolio = () => {
                     <h2>QuickSign App Pricing</h2>
                 </div>
                 <div className="container mt-5">
-                    <Pricing></Pricing>
+                    <PricingTable></PricingTable>
+                    {/*<Pricing></Pricing>*/}
                 </div>
             </div>
 
