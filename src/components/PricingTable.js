@@ -115,51 +115,57 @@ const PricingTable = () => {
                     <tr>
                         <td rowSpan="3">eSign Web (QuickSign) for Individual (Monthly Plan) </td>
                         <td>Small</td>
-                        <td>Up to 5000 eSign/year</td>
-                        <td>২০.০০</td>
+                        <td>10 eSign/month </td>
+                        <td>২৪.০০</td>
                     </tr>
                     <tr>
                         <td>Medium</td>
-                        <td>5,001 to 10,000 eSign/year</td>
-                        <td>১৭.০০</td>
+                        <td>50 eSign/month </td>
+                        <td>২০.০০</td>
                     </tr>
                     <tr>
                         <td>Large</td>
-                        <td>10,001 to 50,000 eSign/year</td>
-                        <td>১২.০০</td>
+                        <td>100 eSign/month </td>
+                        <td>১৬.০০</td>
                     </tr>
                     <tr>
                         <td rowSpan="3">eSign Web (QuickSign) for Organization (Monthly Plan) </td>
                         <td>Small</td>
-                        <td>Up to 5000 eSign/year</td>
-                        <td>২০.০০</td>
-                    </tr>
-                    <tr>
-                        <td>Medium</td>
-                        <td>5,001 to 10,000 eSign/year</td>
-                        <td>১৭.০০</td>
-                    </tr>
-                    <tr>
-                        <td>Large</td>
-                        <td>10,001 to 50,000 eSign/year</td>
+                        <td>100 eSign/mont</td>
                         <td>১২.০০</td>
                     </tr>
                     <tr>
-                        <td rowSpan="3">eSign Web (QuickSign) for Organization (Yearly Plan) </td>
+                        <td>Medium</td>
+                        <td>500 eSign/mont</td>
+                        <td>১০.০০</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>1000 eSign/mont</td>
+                        <td>৮.০০</td>
+                    </tr>
+                    <tr>
+                        <td rowSpan="4">eSign Web (QuickSign) for Organization (Yearly Plan) </td>
                         <td>Small</td>
-                        <td>Up to 5000 eSign/year</td>
-                        <td>২০.০০</td>
+                        <td>500 eSign/mont</td>
+                        <td>১৬.০০</td>
                     </tr>
                     <tr>
                         <td>Medium</td>
-                        <td>5,001 to 10,000 eSign/year</td>
-                        <td>১৭.০০</td>
+                        <td>1000 eSign/mont</td>
+                        <td>১৪.০০</td>
+                    </tr>
+                    <tr>
+                        <td>Regular</td>
+                        <td>2500 eSign/mont</td>
+                        <td>১২.০০</td>
                     </tr>
                     <tr>
                         <td>Large</td>
-                        <td>10,001 to 50,000 eSign/year</td>
-                        <td>১২.০০</td>
+                        <td>5000 eSign/month</td>
+                        <td>১০.০০</td>
                     </tr>
+
                     </tbody>
                 </Table>
 
