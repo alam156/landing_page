@@ -149,9 +149,6 @@ const Portfolio = () => {
                 <AccordionFAQ data={landingPageData['Faq']}/>
             </div>
             <div>
-                <div className="section-title text-center">
-                    <h2>QuickSign App Pricing</h2>
-                </div>
                 <div className="container mt-5">
                     <PricingTable></PricingTable>
                     {/*<Pricing></Pricing>*/}
