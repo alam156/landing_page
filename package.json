@@ -13,6 +13,7 @@
     "@xyflow/react": "^12.0.4",
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
+    "caniuse-lite": "^1.0.30001632",
     "font-awesome": "^4.7.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.3",
@@ -28,6 +29,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "postinstall": "npm install --force @babel/core@^7.16.0",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -55,4 +57,5 @@
     "@babel/core": "^7.16.0"
   },
   "type": "module"
+
 }

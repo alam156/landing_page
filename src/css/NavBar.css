@@ -5,6 +5,7 @@
     transform: translateX(-50%); /* Center horizontally */
     max-height: 80vh; /* Limit the height of the dropdown menu to 80% of the viewport height */
     overflow-y: auto; /* Add scrollbars if the content exceeds the max-height */
+    background-color: white !important;
 }
 
 @media (max-width: 900px) {
@@ -35,5 +36,5 @@ ul.dropdown-menu {
     font-size: 0.8rem; /* or any other size you prefer */
 }
 .bg-light {
-    opacity: 0.75;
+    opacity: 0.8
 }
