@@ -17,14 +17,8 @@ export const Features = (props) => {
         <div id="features" className="text-center">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3">
-
-                    </div>
-                    <div className="col-md-6">
+                    <div className="section-title text-center">
                         <h2>Features</h2>
-                    </div>
-                    <div className="col-md-3">
-
                     </div>
 
                 </div>

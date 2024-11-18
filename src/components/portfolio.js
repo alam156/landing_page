@@ -60,16 +60,16 @@ const Portfolio = () => {
             {/*</div>*/}
             <div className="container">
                 <div className="row">
-                    <div className="col-md-2">
+                    <div className="col-md-1">
 
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-10">
                         <div className="section-title text-center">
                             <h2>QuickSign Signing Steps</h2>
                         </div>
                         <SigningStepsCard></SigningStepsCard>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-md-1">
 
                     </div>
                 </div>
@@ -149,9 +149,6 @@ const Portfolio = () => {
                 <AccordionFAQ data={landingPageData['Faq']}/>
             </div>
             <div>
-                <div className="section-title text-center">
-                    <h2>QuickSign App Pricing</h2>
-                </div>
                 <div className="container mt-5">
                     <PricingTable></PricingTable>
                     {/*<Pricing></Pricing>*/}
