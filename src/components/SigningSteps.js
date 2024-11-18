@@ -6,6 +6,12 @@ export const SigningStepss = (props) => {
     //export const Features = (props) => {
     return (
         <Container  >
+            <div className="row">
+                <div className="section-title text-center">
+                    <h2>Registration and Device Registration</h2>
+                </div>
+
+            </div>
             <Row className="step-row mb-4">
                 <Col md={6}>
                     <img src={Image1} alt="Service 1" className="img-fluid mb-3" style={{ width: '100%', height: '350 px', objectFit: 'cover' }} />
@@ -15,7 +21,7 @@ export const SigningStepss = (props) => {
                         <ol className="list-group">
                             <p>
                                 {props.data
-                                    ? props.data.Registration.join(" ")
+                                    ? <h4 style={{ lineHeight: "1.8" }}>{props.data.Registration.join(" ")}</h4>
                                     : "Loading..."}
                             </p>
 
@@ -29,7 +35,7 @@ export const SigningStepss = (props) => {
                         <ul className="list-group">
                             <p>
                                 {props.data
-                                    ? props.data.Device_Registration.join(" ")
+                                    ? <h4 style={{ lineHeight: "1.8" }}>{props.data.Device_Registration.join(" ")}</h4>
                                     : "Loading..."}
                             </p>
 

@@ -34,36 +34,37 @@
 
     "Registration": [
 
-      "Download QuickPass app from android app store in mobile",
-      "Click Create New Account in QuickPass app",
-      "Tick the privacy policy checkbox and click 'Start’",
-      "Enter mobile number and click 'Send OTP'",
-      "Submit the OTP sent to your mobile",
-      "Verify National ID (NID) by taking an image or entering NID manually",
-      "Provide your email ID, set a password, and click 'Submit'"
+      "Firstly, Download QuickPass app from android app store in mobile.",
+      "Click Create New Account in QuickPass app.",
+      "Then, Tick the privacy policy checkbox and click 'Start.’",
+      "Enter mobile number and click 'Send OTP.'",
+      "Submit the OTP sent to your mobile.",
+      "Verify National ID (NID) by taking an image or entering NID manually.",
+      "Provide your email ID, set a password, and click 'Submit'."
     ],
     "Device_Registration": [
-      "Login into the QuickPass app",
-      "Remote Authorization' (an OTP will be sent to your email)",
-      "Submit the OTP and click Verify OTP (you will get “Device Registered” message)"
+      "Login into the QuickPass app.",
+      "To Ensure Remote Authorization an OTP will be sent to your email.",
+      "Submit the OTP and click Verify OTP.",
+      "you will get “Device Registered” message"
     ],
     "Signing": [
 
-      "Click 'Login' (portal’s homepage)",
-      "Enter your mobile number and PIN used during registration",
-      "Click 'New Workflow' to sign the document",
-      "Upload the document you want to sign",
-      "Provide the name and email of the recipient",
-      "Click the 'Next' button",
-      "Click on 'Signature' and place it where you want to sign",
-      "Click 'Save'",
-      "Upload or draw your handwritten signature",
-      "Then click the 'Sign Now' button"
+      "Click 'Login' (portal’s homepage).",
+      "Enter your mobile number and PIN used during registration.",
+      "Click 'New Workflow' to sign the document.",
+      "Upload the document you want to sign.",
+      "Provide the name and email of the recipient.",
+      "Click the 'Next' button.",
+      "Click on 'Signature' and place it where you want to sign.",
+      "Click 'Save'.",
+      "Upload or draw your handwritten signature.",
+      "Then click the 'Sign Now' button."
     ],
     "Authorization": [
 
-      "Sign in to your QuickPass mobile app (after clicking 'Sign Now')",
-      "Click 'Signature Authorization'"
+      "Sign in to your QuickPass mobile app (after clicking 'Sign Now').",
+      "Click 'Signature Authorization'."
     ]
   },
 

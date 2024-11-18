@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/SigningStepsCard.css'; // Create a CSS file for styling
 import regImage from '../album/registration_image.png';
-import authImage from '../album/authorization_image.jpg';
+import authImage from '../album/authorization_image.png';
 const SigningStepsCard = () => {
     const cards = [
         {

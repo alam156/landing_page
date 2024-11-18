@@ -8,6 +8,12 @@ export const SigningStepsAuthorization = (props) => {
     //export const Features = (props) => {
     return (
         <Container  >
+            <div className="row">
+                <div className="section-title text-center">
+                    <h2>Sign Document and Authorization</h2>
+                </div>
+
+            </div>
             <Row className="step-row mb-4">
                 <Col md={6}>
                     <img src={Image3} alt="Service 1" className="img-fluid mb-3" style={{ width: '100%', height: '350 px', objectFit: 'cover' }} />
@@ -19,7 +25,7 @@ export const SigningStepsAuthorization = (props) => {
                             {/*</p>*/}
                             <p>
                                 {props.data
-                                    ? props.data.Signing.join(" ")
+                                    ? <h4 style={{ lineHeight: "1.8" }}>{props.data.Signing.join(" ")}</h4>
                                     : "Loading..."}
                             </p>
 
@@ -34,7 +40,7 @@ export const SigningStepsAuthorization = (props) => {
                             {/*<p className="list-group-item list-group-item-primary"><h3>Step 4 : Authorization</h3></p>*/}
                             <p>
                                 {props.data
-                                    ? props.data.Authorization.join(" ")
+                                    ? <h4 style={{ lineHeight: "1.8" }}>{props.data.Authorization.join(" ")}</h4>
                                     : "Loading..."}
                             </p>
 

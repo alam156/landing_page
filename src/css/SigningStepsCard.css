@@ -4,15 +4,14 @@
     gap: 20px;
     padding: 20px;
 }
-
 .card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background: linear-gradient(to bottom, #ffffff, #007bff);
+    color: black;
     border-radius: 8px;
-    padding: 50px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
+    padding: 16px;
     text-align: center;
     text-decoration: none;
-    color: inherit;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -22,6 +21,7 @@
 }
 
 .card-image {
+    border-radius: 8px;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
@@ -34,5 +34,8 @@
 
 .card-description {
     font-size: 1em;
-    color: #666;
+    color: black;
+}
+.card-button {
+    color: black;
 }
