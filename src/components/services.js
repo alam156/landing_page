@@ -22,18 +22,18 @@ export const Services = (props) => {
             </p>
           </div>
           <div className="row">
-            {/*{props.data*/}
-            {/*    ? props.data.map((d, i) => (*/}
-            {/*        <div key={`${d.name}-${i}`} className="col-md-4">*/}
-            {/*          {" "}*/}
-            {/*          <FontAwesomeIcon icon={iconLookup[d.icon]} size="5x" className="text-light mb-3x"/>*/}
-            {/*          <div className="service-desc">*/}
-            {/*            <h3>{d.name}</h3>*/}
-            {/*            <p>{d.text}</p>*/}
-            {/*          </div>*/}
-            {/*        </div>*/}
-            {/*    ))*/}
-            {/*    : "loading"}*/}
+            {props.data
+                ? props.data.map((d, i) => (
+                    <div key={`${d.name}-${i}`} className="col-md-4">
+                      {" "}
+                      <FontAwesomeIcon icon={iconLookup[d.icon]} size="5x" className="text-light mb-3x"/>
+                      <div className="service-desc">
+                        <h3>{d.name}</h3>
+                        <p>{d.text}</p>
+                      </div>
+                    </div>
+                ))
+                : "loading"}
           </div>
         </div>
       </div>
